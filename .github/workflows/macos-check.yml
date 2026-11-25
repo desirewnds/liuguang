@@ -1,0 +1,78 @@
+name: Native macOS package check
+
+# The exported desktop source tree is the repository root. Manual only.
+# No app launch, installation, notarization, tag, GitHub Release or source upload.
+on:
+  workflow_dispatch:
+    inputs:
+      upload_artifacts:
+        description: 'Keep ad-hoc-signed DMGs and audit reports from this run'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: native-macos-check-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  macos:
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        include:
+          - runner: macos-15
+            target: aarch64-apple-darwin
+          - runner: macos-15-intel
+            target: x86_64-apple-darwin
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 120
+    env:
+      CARGO_HOME: ${{ github.workspace }}/.build/cargo
+      CARGO_TARGET_DIR: ${{ github.workspace }}/target
+      CARGO_BUILD_JOBS: '1'
+      CMAKE_BUILD_PARALLEL_LEVEL: '1'
+      RAYON_NUM_THREADS: '1'
+      RUST_TEST_THREADS: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7, verified 2026-11-17
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7, verified 2026-11-17
+        with:
+          python-version: '3.13'
+      - uses: dtolnay/rust-toolchain@39008827e6b4319a349e9a42dfc90579dd25f1ca # stable branch, verified 2026-11-17
+        with:
+          targets: ${{ matrix.target }}
+      - name: Small packaging input checks
+        run: python3 -B packaging/macos/test_macos_package.py
+      - name: Build the native app and complete private runtime payload
+        run: python3 -B scripts/build-macos.py --target '${{ matrix.target }}'
+      - name: Record toolchain and actual validation boundary
+        run: |
+          mkdir -p test-artifacts/macos-ci
+          rustc -vV > test-artifacts/macos-ci/toolchain.txt
+          xcrun clang --version >> test-artifacts/macos-ci/toolchain.txt
+          sw_vers >> test-artifacts/macos-ci/toolchain.txt
+          printf '%s\n' 'GUI/installation/upgrade/uninstall not tested. Packaging and static/native tool capability checks only.' > test-artifacts/macos-ci/verification.txt
+      - name: Preserve DMG and reports only when requested
+        if: inputs.upload_artifacts
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7, verified 2026-11-17
+        with:
+          name: liuguang-${{ matrix.target }}-adhoc-${{ github.run_number }}
+          compression-level: 0
+          retention-days: 14
+          if-no-files-found: error
+          path: |
+            release/*-macos-*.dmg
+            release/*-macos-*-manifest.json
+            release/*-macos-*-SHA256SUMS.txt
+            .build/macos/${{ matrix.target }}/engine-verification.json
+            test-artifacts/macos-ci/*.txt
+      - name: Remove owned staging copy
+        if: success()
+        run: python3 -B scripts/package-macos.py --target '${{ matrix.target }}' --clean-stage

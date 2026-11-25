@@ -1,0 +1,23 @@
+[workspace]
+resolver = "2"
+members = ["crates/flow-core", "crates/flow-app", "crates/flow-platform", "crates/flow-cli", "crates/flow-gui", "tests/integration"]
+exclude = ["src-tauri"]
+
+[workspace.package]
+license = "Apache-2.0"
+repository = "https://github.com/desirewnds/liuguang"
+version = "2.0.0"
+edition = "2021"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = "debuginfo"
+
+[profile.dev]
+debug = 0
+incremental = false
+
+[profile.test]
+debug = 0
+incremental = false

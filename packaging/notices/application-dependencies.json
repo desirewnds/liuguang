@@ -1,0 +1,5293 @@
+{
+  "schema": 1,
+  "platform": "windows-x86_64-gnu",
+  "cargo_lock_sha256": "79ea8b2895d45eb16d41e158c8ae41bd85eac3c3d18fd37763e9807fcb89d6dd",
+  "packages": [
+    {
+      "ecosystem": "cargo",
+      "name": "adler2",
+      "version": "2.0.1",
+      "license": "0BSD OR MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-adler2-2.0.1-LICENSE-0BSD.txt",
+          "sha256": "861399f8c21c042b110517e76dc6b63a2b334276c8cf17412fc3c8908ca8dc17"
+        },
+        {
+          "file": "cargo-adler2-2.0.1-LICENSE-APACHE.txt",
+          "sha256": "8ada45cd9f843acf64e4722ae262c622a2b3b3007c7310ef36ac1061a30f6adb"
+        },
+        {
+          "file": "cargo-adler2-2.0.1-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "ahash",
+      "version": "0.8.12",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-ahash-0.8.12-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-ahash-0.8.12-LICENSE-MIT.txt",
+          "sha256": "0444c6991eead6822f7b9102e654448d51624431119546492e8b231db42c48bb"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "arrayref",
+      "version": "0.3.9",
+      "license": "BSD-2-Clause",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-arrayref-0.3.9-LICENSE.txt",
+          "sha256": "1bc7e6f475b3ec99b7e2643411950ae2368c250dd4c5c325f80f9811362a94a1"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "arrayvec",
+      "version": "0.7.8",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-arrayvec-0.7.8-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-arrayvec-0.7.8-LICENSE-MIT.txt",
+          "sha256": "4da95ec4ecb65b738d470b7d762894ad9c97da93e6cbfb18b570fc2c96f4b871"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "ash",
+      "version": "0.38.0+1.3.281",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-ash-0.38.0_1.3.281-LICENSE-APACHE.txt",
+          "sha256": "0e8a410375e1ee5c75c6198b08b534fec6e5edef766cf971bab4a404542636ab"
+        },
+        {
+          "file": "cargo-ash-0.38.0_1.3.281-LICENSE-MIT.txt",
+          "sha256": "c733ccf8ab25df175a63d9d844677b98e3a5ab8f8de1c1616087e6868a7f948e"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "atomic-waker",
+      "version": "1.1.2",
+      "license": "Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-atomic-waker-1.1.2-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-atomic-waker-1.1.2-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "file": "cargo-atomic-waker-1.1.2-LICENSE-THIRD-PARTY.txt",
+          "sha256": "6226d0632e2e1a80c23597e964da9812ae193c535fe058154afb034e94167aa5"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "autocfg",
+      "version": "1.5.1",
+      "license": "Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-autocfg-1.5.1-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-autocfg-1.5.1-LICENSE-MIT.txt",
+          "sha256": "27995d58ad5c1145c1a8cd86244ce844886958a35eb2b78c6b772748669999ac"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "base64",
+      "version": "0.22.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-base64-0.22.1-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-base64-0.22.1-LICENSE-MIT.txt",
+          "sha256": "0dd882e53de11566d50f8e8e2d5a651bcf3fabee4987d70f306233cf39094ba7"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "base64",
+      "version": "0.23.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-base64-0.23.1-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-base64-0.23.1-LICENSE-MIT.txt",
+          "sha256": "ab499c75a0f0da8e0fe83bf9ba3a27e5c39705310f07107c6c66b69958d2401c"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "bit-set",
+      "version": "0.8.0",
+      "license": "Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-bit-set-0.8.0-LICENSE-APACHE.txt",
+          "sha256": "8173d5c29b4f956d532781d2b86e4e30f83e6b7878dce18c919451d6ba707c90"
+        },
+        {
+          "file": "cargo-bit-set-0.8.0-LICENSE-MIT.txt",
+          "sha256": "f51ac2c59a222f7476ce507ca879960e2b64ea64bb2786eefdbeb7b0b538d1b7"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "bit-vec",
+      "version": "0.8.0",
+      "license": "Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-bit-vec-0.8.0-LICENSE-APACHE.txt",
+          "sha256": "8173d5c29b4f956d532781d2b86e4e30f83e6b7878dce18c919451d6ba707c90"
+        },
+        {
+          "file": "cargo-bit-vec-0.8.0-LICENSE-MIT.txt",
+          "sha256": "f51ac2c59a222f7476ce507ca879960e2b64ea64bb2786eefdbeb7b0b538d1b7"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "bitflags",
+      "version": "2.13.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-bitflags-2.13.2-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-bitflags-2.13.2-LICENSE-MIT.txt",
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "block-buffer",
+      "version": "0.10.4",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-block-buffer-0.10.4-LICENSE-APACHE.txt",
+          "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5"
+        },
+        {
+          "file": "cargo-block-buffer-0.10.4-LICENSE-MIT.txt",
+          "sha256": "d5c22aa3118d240e877ad41c5d9fa232f9c77d757d4aac0c2f943afc0a95e0ef"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "bytemuck",
+      "version": "1.25.2",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-bytemuck-1.25.2-LICENSE-APACHE.txt",
+          "sha256": "e3ba223bb1423f0aad8c3dfce0fe3148db48926d41e6fbc3afbbf5ff9e1c89cb"
+        },
+        {
+          "file": "cargo-bytemuck-1.25.2-LICENSE-MIT.txt",
+          "sha256": "9df9ba60a11af705f2e451b53762686e615d86f76b169cf075c3237730dbd7e2"
+        },
+        {
+          "file": "cargo-bytemuck-1.25.2-LICENSE-ZLIB.txt",
+          "sha256": "84b34dd7608f7fb9b17bd588a6bf392bf7de504e2716f024a77d89f1b145a151"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "bytemuck_derive",
+      "version": "1.12.1",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-bytemuck_derive-1.12.1-LICENSE-APACHE.txt",
+          "sha256": "e3ba223bb1423f0aad8c3dfce0fe3148db48926d41e6fbc3afbbf5ff9e1c89cb"
+        },
+        {
+          "file": "cargo-bytemuck_derive-1.12.1-LICENSE-MIT.txt",
+          "sha256": "9df9ba60a11af705f2e451b53762686e615d86f76b169cf075c3237730dbd7e2"
+        },
+        {
+          "file": "cargo-bytemuck_derive-1.12.1-LICENSE-ZLIB.txt",
+          "sha256": "84b34dd7608f7fb9b17bd588a6bf392bf7de504e2716f024a77d89f1b145a151"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "byteorder-lite",
+      "version": "0.1.0",
+      "license": "Unlicense OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-byteorder-lite-0.1.0-LICENSE-MIT.txt",
+          "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "bytes",
+      "version": "1.12.1",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-bytes-1.12.1-LICENSE.txt",
+          "sha256": "45f522cacecb1023856e46df79ca625dfc550c94910078bd8aec6e02880b3d42"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cc",
+      "version": "1.11.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-cc-1.11.2-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-cc-1.11.2-LICENSE-MIT.txt",
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cfg-if",
+      "version": "1.0.5",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-cfg-if-1.0.5-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-cfg-if-1.0.5-LICENSE-MIT.txt",
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cfg_aliases",
+      "version": "0.2.2",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-cfg_aliases-0.2.2-LICENSE.txt",
+          "sha256": "31b94860253d8ec7b4529f51901044d3b459d6292d996504a36b1bae3a36a812"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "clipboard-win",
+      "version": "5.4.3",
+      "license": "BSL-1.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-clipboard-win-5.4.3-DoumanAsh-clipboard-win-ed27008ae5d1-LICENSE.txt",
+          "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "notice_source": [
+        "https://github.com/DoumanAsh/clipboard-win/blob/ed27008ae5d1f10cfbb266de039f0fb35fd05a56/LICENSE"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "codespan-reporting",
+      "version": "0.12.0",
+      "license": "Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-codespan-reporting-0.12.0-LICENSE.txt",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "core_maths",
+      "version": "0.1.1",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-core_maths-0.1.1-LICENSE.txt",
+          "sha256": "9ebf8c4cc0b735ca13a766451f7b8097db3185975ceb2ba94b5abf439156a91f"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cosmic-text",
+      "version": "0.15.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-cosmic-text-0.15.0-LICENSE-APACHE.txt",
+          "sha256": "000b4962e6b27176a0ff89cce4be555b16472cafb5671eb2804a8fdac6854793"
+        },
+        {
+          "file": "cargo-cosmic-text-0.15.0-LICENSE-MIT.txt",
+          "sha256": "95557bafe728379e206f3b6d4aceeaa054d271c71d722411a6222e2dec01138c"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cpufeatures",
+      "version": "0.2.17",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-cpufeatures-0.2.17-LICENSE-APACHE.txt",
+          "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5"
+        },
+        {
+          "file": "cargo-cpufeatures-0.2.17-LICENSE-MIT.txt",
+          "sha256": "ae9baa7beea910273c2f384c2a6b721fb7bd02bda3436074a1072e4ee689f985"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "crc32fast",
+      "version": "1.5.5",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-crc32fast-1.5.5-LICENSE-APACHE.txt",
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "file": "cargo-crc32fast-1.5.5-LICENSE-MIT.txt",
+          "sha256": "61d383b05b87d78f94d2937e2580cce47226d17823c0430fbcad09596537efcf"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "crossbeam-channel",
+      "version": "0.5.17",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-crossbeam-channel-0.5.17-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-crossbeam-channel-0.5.17-LICENSE-MIT.txt",
+          "sha256": "5734ed989dfca1f625b40281ee9f4530f91b2411ec01cb748223e7eb87e201ab"
+        },
+        {
+          "file": "cargo-crossbeam-channel-0.5.17-LICENSE-THIRD-PARTY.txt",
+          "sha256": "b16db96b93b1d7cf7bea533f572091ec6bca3234fbe0a83038be772ff391a44c"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "crossbeam-utils",
+      "version": "0.8.23",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-crossbeam-utils-0.8.23-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-crossbeam-utils-0.8.23-LICENSE-MIT.txt",
+          "sha256": "5734ed989dfca1f625b40281ee9f4530f91b2411ec01cb748223e7eb87e201ab"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cryoglyph",
+      "version": "0.1.0",
+      "license": "MIT OR Apache-2.0 OR Zlib",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-cryoglyph-0.1.0-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-cryoglyph-0.1.0-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "file": "cargo-cryoglyph-0.1.0-LICENSE-ZLIB.txt",
+          "sha256": "b3ec01ad0869c5c50937bc68780cd0bb44e235ad858dfa54a7a381dced9b115a"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "crypto-common",
+      "version": "0.1.7",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-crypto-common-0.1.7-LICENSE-APACHE.txt",
+          "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5"
+        },
+        {
+          "file": "cargo-crypto-common-0.1.7-LICENSE-MIT.txt",
+          "sha256": "3521672491a3479422d5fe1aca6645dd2984090f85da6e5205abfb18fb7a6897"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cursor-icon",
+      "version": "1.2.0",
+      "license": "MIT OR Apache-2.0 OR Zlib",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-cursor-icon-1.2.0-LICENSE-APACHE.txt",
+          "sha256": "b59affd015e517ed998dd735757f9a3693643cd389609947ed54074234a10784"
+        },
+        {
+          "file": "cargo-cursor-icon-1.2.0-LICENSE-MIT.txt",
+          "sha256": "c138726a726ac37bae09d0f8a48e74e8e3aa8a8952fcd10fae0fb224cc1c05f1"
+        },
+        {
+          "file": "cargo-cursor-icon-1.2.0-LICENSE-ZLIB.txt",
+          "sha256": "01e533bd94e8f1c32b2c2531e2c398de7d35d7804add3d574b4e1fe581d53537"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "digest",
+      "version": "0.10.7",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-digest-0.10.7-LICENSE-APACHE.txt",
+          "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5"
+        },
+        {
+          "file": "cargo-digest-0.10.7-LICENSE-MIT.txt",
+          "sha256": "9e0dfd2dd4173a530e238cb6adb37aa78c34c6bc7444e0e10c1ab5d8881f63ba"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "dirs",
+      "version": "7.0.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-dirs-7.0.0-LICENSE-APACHE.txt",
+          "sha256": "d3174ad63e721d4c9dccb8ad4320848992d314369bc46319720b5802c9153fe9"
+        },
+        {
+          "file": "cargo-dirs-7.0.0-LICENSE-MIT.txt",
+          "sha256": "6a2e0ade09a7d5f816f11566fee2b151b32235a7fad52b41d49cce96f833c1a9"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "dirs-sys",
+      "version": "0.5.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-dirs-sys-0.5.0-LICENSE-APACHE.txt",
+          "sha256": "d3174ad63e721d4c9dccb8ad4320848992d314369bc46319720b5802c9153fe9"
+        },
+        {
+          "file": "cargo-dirs-sys-0.5.0-LICENSE-MIT.txt",
+          "sha256": "6a2e0ade09a7d5f816f11566fee2b151b32235a7fad52b41d49cce96f833c1a9"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "displaydoc",
+      "version": "0.2.7",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-displaydoc-0.2.7-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-displaydoc-0.2.7-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "document-features",
+      "version": "0.2.12",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-document-features-0.2.12-LICENSE-APACHE.txt",
+          "sha256": "074e6e32c86a4c0ef8b3ed25b721ca23aca83df277cd88106ef7177c354615ff"
+        },
+        {
+          "file": "cargo-document-features-0.2.12-LICENSE-MIT.txt",
+          "sha256": "aa893340d14b9844625be6a50ac644169a01b52f0211cbf81b09e1874c8cd81d"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "dpi",
+      "version": "0.1.2",
+      "license": "Apache-2.0 AND MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-dpi-0.1.2-LICENSE.txt",
+          "sha256": "6dc0e068dcf3a5bc8e054205b85b7720e1d49265bbc64bf515d2cf79197df69a"
+        },
+        {
+          "file": "cargo-dpi-0.1.2-LICENSE-LIBM-MIT.txt",
+          "sha256": "9eff396a99bafd208e7126602420d6864f6066c08b84485a5b032320a9c01997"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "equivalent",
+      "version": "1.0.3",
+      "license": "Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-equivalent-1.0.3-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-equivalent-1.0.3-LICENSE-MIT.txt",
+          "sha256": "7365cc8878a1d7ce155a58c4ca09c3d7a6be413efa5334a80ea842912b669349"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "error-code",
+      "version": "3.4.0",
+      "license": "BSL-1.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-error-code-3.4.0-LICENSE.txt",
+          "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "etagere",
+      "version": "0.2.15",
+      "license": "MIT/Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-etagere-0.2.15-LICENSE-APACHE.txt",
+          "sha256": "2d56a37f3d1e461f6b1539ab94e0e6bcc55443e376098aee85ac3b2890860290"
+        },
+        {
+          "file": "cargo-etagere-0.2.15-LICENSE-MIT.txt",
+          "sha256": "9cfc9c9a4608501b5da3746948d2be2dd709ad51f6bcb0c1c685760ee3dde31f"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "euclid",
+      "version": "0.22.14",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-euclid-0.22.14-COPYRIGHT.txt",
+          "sha256": "ec82b96487e9e778ee610c7ab245162464782cfa1f555c2299333f8dbe5c036a"
+        },
+        {
+          "file": "cargo-euclid-0.22.14-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-euclid-0.22.14-LICENSE-MIT.txt",
+          "sha256": "62065228e42caebca7e7d7db1204cbb867033de5982ca4009928915e4095f3a3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "fallible-iterator",
+      "version": "0.3.0",
+      "license": "MIT/Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-fallible-iterator-0.3.0-LICENSE-APACHE.txt",
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "file": "cargo-fallible-iterator-0.3.0-LICENSE-MIT.txt",
+          "sha256": "0816e154b159ba255c563f7c8c7df5bbb8cc5fc96f5ab8cf9f4743b4f41fe7eb"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "fallible-streaming-iterator",
+      "version": "0.1.9",
+      "license": "MIT/Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-fallible-streaming-iterator-0.1.9-LICENSE-APACHE.txt",
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "file": "cargo-fallible-streaming-iterator-0.1.9-LICENSE-MIT.txt",
+          "sha256": "8dcec5569a9be5b0e086c80faed6f1aefa670af0ec29cecc2f714303096887e0"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "fastrand",
+      "version": "2.5.0",
+      "license": "Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-fastrand-2.5.0-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-fastrand-2.5.0-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "fdeflate",
+      "version": "0.3.7",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-fdeflate-0.3.7-LICENSE-APACHE.txt",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "file": "cargo-fdeflate-0.3.7-LICENSE-MIT.txt",
+          "sha256": "c77a4cf9da729987d0fe7ccd811e3bd27393914ddf3d23467c18cc22954513b3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "find-msvc-tools",
+      "version": "0.1.15",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-find-msvc-tools-0.1.15-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-find-msvc-tools-0.1.15-LICENSE-MIT.txt",
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "flate2",
+      "version": "1.1.11",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-flate2-1.1.11-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-flate2-1.1.11-LICENSE-MIT.txt",
+          "sha256": "025436edff4cfcdde17a5811fdea78892d8482efd1abdec5a17872d07a4f2112"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "foldhash",
+      "version": "0.1.5",
+      "license": "Zlib",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-foldhash-0.1.5-LICENSE.txt",
+          "sha256": "b1181a40b2a7b25cf66fd01481713bc1005df082c53ef73e851e55071b102744"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "foldhash",
+      "version": "0.2.0",
+      "license": "Zlib",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-foldhash-0.2.0-LICENSE.txt",
+          "sha256": "b1181a40b2a7b25cf66fd01481713bc1005df082c53ef73e851e55071b102744"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "font-types",
+      "version": "0.10.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-font-types-0.10.1-LICENSE-APACHE.txt",
+          "sha256": "a14f7d685a79c0f4fb64aee305527a6d5fa55f2401f4e6d688d7b1301868e6c0"
+        },
+        {
+          "file": "cargo-font-types-0.10.1-LICENSE-MIT.txt",
+          "sha256": "8a62fa27ffdccc3df19dce90f8bb3d572e27aecffc1a383d0c2601834dcec434"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "font-types",
+      "version": "0.12.7",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-font-types-0.12.7-LICENSE-APACHE.txt",
+          "sha256": "eba684204073ed715c4abb48129acdfd2bff8ae48339e6a7da3b341d3027b7f0"
+        },
+        {
+          "file": "cargo-font-types-0.12.7-LICENSE-MIT.txt",
+          "sha256": "7b4c9a3946dfcea7967582760e963e27799e225dcf20565c8ef55324bb017427"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "fontdb",
+      "version": "0.23.0",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-fontdb-0.23.0-LICENSE.txt",
+          "sha256": "59a1fdac3bd550043599bd159fd70f09a1108c2b09e3751d39b11e1ff8e51f00"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "form_urlencoded",
+      "version": "1.2.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-form_urlencoded-1.2.2-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-form_urlencoded-1.2.2-LICENSE-MIT.txt",
+          "sha256": "20c7855c364d57ea4c97889a5e8d98470a9952dade37bd9248b9a54431670e5e"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures",
+      "version": "0.3.34",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-futures-0.3.34-LICENSE-APACHE.txt",
+          "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427"
+        },
+        {
+          "file": "cargo-futures-0.3.34-LICENSE-MIT.txt",
+          "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-channel",
+      "version": "0.3.34",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-futures-channel-0.3.34-LICENSE-APACHE.txt",
+          "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427"
+        },
+        {
+          "file": "cargo-futures-channel-0.3.34-LICENSE-MIT.txt",
+          "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-core",
+      "version": "0.3.34",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-futures-core-0.3.34-LICENSE-APACHE.txt",
+          "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427"
+        },
+        {
+          "file": "cargo-futures-core-0.3.34-LICENSE-MIT.txt",
+          "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-executor",
+      "version": "0.3.34",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-futures-executor-0.3.34-LICENSE-APACHE.txt",
+          "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427"
+        },
+        {
+          "file": "cargo-futures-executor-0.3.34-LICENSE-MIT.txt",
+          "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-io",
+      "version": "0.3.34",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-futures-io-0.3.34-LICENSE-APACHE.txt",
+          "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427"
+        },
+        {
+          "file": "cargo-futures-io-0.3.34-LICENSE-MIT.txt",
+          "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-macro",
+      "version": "0.3.34",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-futures-macro-0.3.34-LICENSE-APACHE.txt",
+          "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427"
+        },
+        {
+          "file": "cargo-futures-macro-0.3.34-LICENSE-MIT.txt",
+          "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-sink",
+      "version": "0.3.34",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-futures-sink-0.3.34-LICENSE-APACHE.txt",
+          "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427"
+        },
+        {
+          "file": "cargo-futures-sink-0.3.34-LICENSE-MIT.txt",
+          "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-task",
+      "version": "0.3.34",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-futures-task-0.3.34-LICENSE-APACHE.txt",
+          "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427"
+        },
+        {
+          "file": "cargo-futures-task-0.3.34-LICENSE-MIT.txt",
+          "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-util",
+      "version": "0.3.34",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-futures-util-0.3.34-LICENSE-APACHE.txt",
+          "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427"
+        },
+        {
+          "file": "cargo-futures-util-0.3.34-LICENSE-MIT.txt",
+          "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "generic-array",
+      "version": "0.14.7",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-generic-array-0.14.7-LICENSE.txt",
+          "sha256": "c09aae9d3c77b531f56351a9947bc7446511d6b025b3255312d3e3442a9a7583"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "getrandom",
+      "version": "0.4.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-getrandom-0.4.3-LICENSE-APACHE.txt",
+          "sha256": "aaff376532ea30a0cd5330b9502ad4a4c8bf769c539c87ffe78819d188a18ebf"
+        },
+        {
+          "file": "cargo-getrandom-0.4.3-LICENSE-MIT.txt",
+          "sha256": "523a42c25d245dde9c015f882cec7f4555aad883382a6cf19b4b7d9b2cd5419b"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "gl_generator",
+      "version": "0.14.0",
+      "license": "Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-gl_generator-0.14.0-rust-windowing-gl-rs-ea503e8d5fb6-LICENSE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "notice_source": [
+        "https://github.com/rust-windowing/gl-rs/blob/ea503e8d5fb6d73c6030e6191ce738cd3bf3433e/LICENSE"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "glam",
+      "version": "0.25.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-glam-0.25.0-LICENSE-APACHE.txt",
+          "sha256": "be33ddb87a30fd321ab100e2d922cba512e50ec7a63d8e62e5bfc0798dd4b585"
+        },
+        {
+          "file": "cargo-glam-0.25.0-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "glow",
+      "version": "0.16.0",
+      "license": "MIT OR Apache-2.0 OR Zlib",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-glow-0.16.0-LICENSE-APACHE.txt",
+          "sha256": "b8601fc79bdf8d8088f0938bea861ffc63ed0eebbedf25f44ab2cf2e85bd7edc"
+        },
+        {
+          "file": "cargo-glow-0.16.0-LICENSE-MIT.txt",
+          "sha256": "cdbd06e25b8c9c5d6019949d2de8123f56d29cee4166396423d2ba8c81700845"
+        },
+        {
+          "file": "cargo-glow-0.16.0-LICENSE-ZLIB.txt",
+          "sha256": "636f644f1e149eb62961657c0e34953681eff64435653912e7bd19992666faa5"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "glutin_wgl_sys",
+      "version": "0.6.1",
+      "license": "Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-glutin_wgl_sys-0.6.1-LICENSE.txt",
+          "sha256": "a4445427440043e8ce6fadf7a43fb906cb0d7f6c573a560a9f142cf9f9bf8ff4"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "gpu-alloc",
+      "version": "0.6.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-gpu-alloc-0.6.2-zakarumych-gpu-alloc-61020bdcb4eb-COPYING.txt",
+          "sha256": "12121dfa588677007848ab922a45a1e3248868f6ff063598fceb3141d7897314"
+        },
+        {
+          "file": "cargo-gpu-alloc-0.6.2-zakarumych-gpu-alloc-61020bdcb4eb-license-MIT.txt",
+          "sha256": "f774bf68151714985324d90adbd59e8f271b7ba518608d871b6ba16464692879"
+        },
+        {
+          "file": "cargo-gpu-alloc-0.6.2-zakarumych-gpu-alloc-61020bdcb4eb-license-APACHE.txt",
+          "sha256": "58317934bf818c379e4215fad7e8dfb6812edff32c9557b8b039343f69711e08"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "notice_source": [
+        "https://github.com/zakarumych/gpu-alloc/blob/61020bdcb4eb04fca6bbf748aeb9570e859236e0/COPYING",
+        "https://github.com/zakarumych/gpu-alloc/blob/61020bdcb4eb04fca6bbf748aeb9570e859236e0/license/MIT",
+        "https://github.com/zakarumych/gpu-alloc/blob/61020bdcb4eb04fca6bbf748aeb9570e859236e0/license/APACHE"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "gpu-alloc-types",
+      "version": "0.3.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-gpu-alloc-types-0.3.1-zakarumych-gpu-alloc-7ddd1fe576fc-COPYING.txt",
+          "sha256": "12121dfa588677007848ab922a45a1e3248868f6ff063598fceb3141d7897314"
+        },
+        {
+          "file": "cargo-gpu-alloc-types-0.3.1-zakarumych-gpu-alloc-7ddd1fe576fc-license-MIT.txt",
+          "sha256": "f774bf68151714985324d90adbd59e8f271b7ba518608d871b6ba16464692879"
+        },
+        {
+          "file": "cargo-gpu-alloc-types-0.3.1-zakarumych-gpu-alloc-7ddd1fe576fc-license-APACHE.txt",
+          "sha256": "58317934bf818c379e4215fad7e8dfb6812edff32c9557b8b039343f69711e08"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "notice_source": [
+        "https://github.com/zakarumych/gpu-alloc/blob/7ddd1fe576fcfc503347eb97e476a47581479f22/COPYING",
+        "https://github.com/zakarumych/gpu-alloc/blob/7ddd1fe576fcfc503347eb97e476a47581479f22/license/MIT",
+        "https://github.com/zakarumych/gpu-alloc/blob/7ddd1fe576fcfc503347eb97e476a47581479f22/license/APACHE"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "gpu-allocator",
+      "version": "0.27.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-gpu-allocator-0.27.0-LICENSE-APACHE.txt",
+          "sha256": "0178e21322b0e88aa3aeb3146f6a9611bc1f8df6d98bdfb34be28b9dd56a8107"
+        },
+        {
+          "file": "cargo-gpu-allocator-0.27.0-LICENSE-MIT.txt",
+          "sha256": "ad41be6cc6538b29b9346648f41432b5e460bad6be073b5eeaa41320ea2921dc"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "gpu-descriptor",
+      "version": "0.3.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-gpu-descriptor-0.3.2-zakarumych-gpu-descriptor-bb28b4e55b74-COPYING.txt",
+          "sha256": "f72143f7e9d9fb8bd336b139fa22f825a299591c29f2f7338c5566347b137613"
+        },
+        {
+          "file": "cargo-gpu-descriptor-0.3.2-zakarumych-gpu-descriptor-bb28b4e55b74-license-MIT.txt",
+          "sha256": "5226e27d5fbc683db56c52853cdb9d15b69abadb525a60f95c862c2dbd77cdc8"
+        },
+        {
+          "file": "cargo-gpu-descriptor-0.3.2-zakarumych-gpu-descriptor-bb28b4e55b74-license-APACHE.txt",
+          "sha256": "6bec8c944a6d4251be50ac86bb4ca360bcce5aea472505dee2800e160bf1cdbf"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "notice_source": [
+        "https://github.com/zakarumych/gpu-descriptor/blob/bb28b4e55b742e0ea3e7a0968e7ee6287ba0e06a/COPYING",
+        "https://github.com/zakarumych/gpu-descriptor/blob/bb28b4e55b742e0ea3e7a0968e7ee6287ba0e06a/license/MIT",
+        "https://github.com/zakarumych/gpu-descriptor/blob/bb28b4e55b742e0ea3e7a0968e7ee6287ba0e06a/license/APACHE"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "gpu-descriptor-types",
+      "version": "0.2.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-gpu-descriptor-types-0.2.0-zakarumych-gpu-descriptor-9f2fb9546591-COPYING.txt",
+          "sha256": "f72143f7e9d9fb8bd336b139fa22f825a299591c29f2f7338c5566347b137613"
+        },
+        {
+          "file": "cargo-gpu-descriptor-types-0.2.0-zakarumych-gpu-descriptor-9f2fb9546591-license-MIT.txt",
+          "sha256": "5226e27d5fbc683db56c52853cdb9d15b69abadb525a60f95c862c2dbd77cdc8"
+        },
+        {
+          "file": "cargo-gpu-descriptor-types-0.2.0-zakarumych-gpu-descriptor-9f2fb9546591-license-APACHE.txt",
+          "sha256": "6bec8c944a6d4251be50ac86bb4ca360bcce5aea472505dee2800e160bf1cdbf"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "notice_source": [
+        "https://github.com/zakarumych/gpu-descriptor/blob/9f2fb9546591322e7b77ee1e79385e01effd85e4/COPYING",
+        "https://github.com/zakarumych/gpu-descriptor/blob/9f2fb9546591322e7b77ee1e79385e01effd85e4/license/MIT",
+        "https://github.com/zakarumych/gpu-descriptor/blob/9f2fb9546591322e7b77ee1e79385e01effd85e4/license/APACHE"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "guillotiere",
+      "version": "0.6.2",
+      "license": "MIT/Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-guillotiere-0.6.2-LICENSE.txt",
+          "sha256": "7e98bed7f100747aaae7d82ab94fbe6b76fd6b84b09a3aaa413bff8196d0fbb1"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "half",
+      "version": "2.7.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-half-2.7.1-LICENSE-APACHE.txt",
+          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+        },
+        {
+          "file": "cargo-half-2.7.1-LICENSE-MIT.txt",
+          "sha256": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "harfrust",
+      "version": "0.3.2",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-harfrust-0.3.2-LICENSE.txt",
+          "sha256": "7d43d2ef1ce976c7bfb423c696ad9938ccfc31e9ec5be752265e43fe9d29f697"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "hashbrown",
+      "version": "0.14.5",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-hashbrown-0.14.5-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-hashbrown-0.14.5-LICENSE-MIT.txt",
+          "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "hashbrown",
+      "version": "0.15.5",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-hashbrown-0.15.5-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-hashbrown-0.15.5-LICENSE-MIT.txt",
+          "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "hashbrown",
+      "version": "0.16.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-hashbrown-0.16.1-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-hashbrown-0.16.1-LICENSE-MIT.txt",
+          "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "hashbrown",
+      "version": "0.17.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-hashbrown-0.17.1-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-hashbrown-0.17.1-LICENSE-MIT.txt",
+          "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "hashlink",
+      "version": "0.9.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-hashlink-0.9.1-LICENSE-APACHE.txt",
+          "sha256": "c144680885b29e4719e2a51f0aab5439a1e02d980692b5aaf086cae12727f28b"
+        },
+        {
+          "file": "cargo-hashlink-0.9.1-LICENSE-MIT.txt",
+          "sha256": "e915669a595b11a200873df8286561881b0e04932f6412a585db6297ba0bc97c"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "hexf-parse",
+      "version": "0.2.1",
+      "license": "CC0-1.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-hexf-parse-0.2.1-spdx-CC0-1.0.txt",
+          "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "license_declaration_source": "https://github.com/lifthrasiir/hexf/blob/4225763d744183d720f575ae96d04161b4d08ea0/parse/Cargo.toml",
+      "notice_source": [
+        "https://github.com/spdx/license-list-data/blob/main/text/CC0-1.0.txt"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "http",
+      "version": "1.5.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-http-1.5.0-LICENSE-APACHE.txt",
+          "sha256": "8bb1b50b0e5c9399ae33bd35fab2769010fa6c14e8860c729a52295d84896b7a"
+        },
+        {
+          "file": "cargo-http-1.5.0-LICENSE-MIT.txt",
+          "sha256": "dc91f8200e4b2a1f9261035d4c18c33c246911a6c0f7b543d75347e61b249cff"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "http-body",
+      "version": "1.1.0",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-http-body-1.1.0-LICENSE.txt",
+          "sha256": "248378d0a3383c173fb925f17141b88e71580b3ba17ddc6ac3d2a344683232ab"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "http-body-util",
+      "version": "0.1.5",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-http-body-util-0.1.5-LICENSE.txt",
+          "sha256": "248378d0a3383c173fb925f17141b88e71580b3ba17ddc6ac3d2a344683232ab"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "httparse",
+      "version": "1.10.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-httparse-1.10.1-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-httparse-1.10.1-LICENSE-MIT.txt",
+          "sha256": "391a5396cec6230bfabd4ef4eb2350eb895bc5efce377a2218f5702ed020d3e3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "hyper",
+      "version": "1.12.0",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-hyper-1.12.0-LICENSE.txt",
+          "sha256": "2d01890414494742ba4a509fcec8efa40f6d8be22cbd72be7cff08d6fda4ec89"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "hyper-tls",
+      "version": "0.6.0",
+      "license": "MIT/Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-hyper-tls-0.6.0-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-hyper-tls-0.6.0-LICENSE-MIT.txt",
+          "sha256": "7b033f57f23fffca5bee9406cf453ce31e919c1b867df54bfa7487e73d8c9c1f"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "hyper-util",
+      "version": "0.1.21",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-hyper-util-0.1.21-LICENSE.txt",
+          "sha256": "9e0a97848ea543aef745c98e84fde696a9a3e0735538f6daefdd3cb1942effc1"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "iced",
+      "version": "0.14.0",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-iced-0.14.0-LICENSE.txt",
+          "sha256": "fc9086ba4eba4b77e4c603906362742bc3715ffa2c7810c6074fe7780d3a0398"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "iced_core",
+      "version": "0.14.0",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-iced_core-0.14.0-iced-rs-iced-3997291f318a-LICENSE.txt",
+          "sha256": "fc9086ba4eba4b77e4c603906362742bc3715ffa2c7810c6074fe7780d3a0398"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "notice_source": [
+        "https://github.com/iced-rs/iced/blob/3997291f318a8bc06fa522f5579836fb3feb94df/LICENSE"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "iced_debug",
+      "version": "0.14.0",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-iced_debug-0.14.0-iced-rs-iced-3997291f318a-LICENSE.txt",
+          "sha256": "fc9086ba4eba4b77e4c603906362742bc3715ffa2c7810c6074fe7780d3a0398"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "notice_source": [
+        "https://github.com/iced-rs/iced/blob/3997291f318a8bc06fa522f5579836fb3feb94df/LICENSE"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "iced_futures",
+      "version": "0.14.0",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-iced_futures-0.14.0-iced-rs-iced-3997291f318a-LICENSE.txt",
+          "sha256": "fc9086ba4eba4b77e4c603906362742bc3715ffa2c7810c6074fe7780d3a0398"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "notice_source": [
+        "https://github.com/iced-rs/iced/blob/3997291f318a8bc06fa522f5579836fb3feb94df/LICENSE"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "iced_graphics",
+      "version": "0.14.0",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-iced_graphics-0.14.0-iced-rs-iced-3997291f318a-LICENSE.txt",
+          "sha256": "fc9086ba4eba4b77e4c603906362742bc3715ffa2c7810c6074fe7780d3a0398"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "notice_source": [
+        "https://github.com/iced-rs/iced/blob/3997291f318a8bc06fa522f5579836fb3feb94df/LICENSE"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "iced_program",
+      "version": "0.14.0",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-iced_program-0.14.0-iced-rs-iced-3997291f318a-LICENSE.txt",
+          "sha256": "fc9086ba4eba4b77e4c603906362742bc3715ffa2c7810c6074fe7780d3a0398"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "notice_source": [
+        "https://github.com/iced-rs/iced/blob/3997291f318a8bc06fa522f5579836fb3feb94df/LICENSE"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "iced_renderer",
+      "version": "0.14.0",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-iced_renderer-0.14.0-iced-rs-iced-3997291f318a-LICENSE.txt",
+          "sha256": "fc9086ba4eba4b77e4c603906362742bc3715ffa2c7810c6074fe7780d3a0398"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "notice_source": [
+        "https://github.com/iced-rs/iced/blob/3997291f318a8bc06fa522f5579836fb3feb94df/LICENSE"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "iced_runtime",
+      "version": "0.14.0",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-iced_runtime-0.14.0-iced-rs-iced-3997291f318a-LICENSE.txt",
+          "sha256": "fc9086ba4eba4b77e4c603906362742bc3715ffa2c7810c6074fe7780d3a0398"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "notice_source": [
+        "https://github.com/iced-rs/iced/blob/3997291f318a8bc06fa522f5579836fb3feb94df/LICENSE"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "iced_tiny_skia",
+      "version": "0.14.1",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-iced_tiny_skia-0.14.1-iced-rs-iced-0ecf60664df7-LICENSE.txt",
+          "sha256": "fc9086ba4eba4b77e4c603906362742bc3715ffa2c7810c6074fe7780d3a0398"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "notice_source": [
+        "https://github.com/iced-rs/iced/blob/0ecf60664df7b8ac7d7aef5f7279d5323027f693/LICENSE"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "iced_wgpu",
+      "version": "0.14.0",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-iced_wgpu-0.14.0-iced-rs-iced-3997291f318a-LICENSE.txt",
+          "sha256": "fc9086ba4eba4b77e4c603906362742bc3715ffa2c7810c6074fe7780d3a0398"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "notice_source": [
+        "https://github.com/iced-rs/iced/blob/3997291f318a8bc06fa522f5579836fb3feb94df/LICENSE"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "iced_widget",
+      "version": "0.14.2",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-iced_widget-0.14.2-iced-rs-iced-54abf81d13fe-LICENSE.txt",
+          "sha256": "fc9086ba4eba4b77e4c603906362742bc3715ffa2c7810c6074fe7780d3a0398"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "notice_source": [
+        "https://github.com/iced-rs/iced/blob/54abf81d13fec06d4d9ac754b03ce2c3313e8a1f/LICENSE"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "iced_winit",
+      "version": "0.14.1",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-iced_winit-0.14.1-iced-rs-iced-38237dd294da-LICENSE.txt",
+          "sha256": "fc9086ba4eba4b77e4c603906362742bc3715ffa2c7810c6074fe7780d3a0398"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "notice_source": [
+        "https://github.com/iced-rs/iced/blob/38237dd294da3256c2ac4d3f8288fc73956c91e0/LICENSE"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "icu_collections",
+      "version": "2.4.0",
+      "license": "Unicode-3.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-icu_collections-2.4.0-LICENSE.txt",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "icu_locale_core",
+      "version": "2.4.0",
+      "license": "Unicode-3.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-icu_locale_core-2.4.0-LICENSE.txt",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "icu_normalizer",
+      "version": "2.4.0",
+      "license": "Unicode-3.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-icu_normalizer-2.4.0-LICENSE.txt",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "icu_normalizer_data",
+      "version": "2.4.0",
+      "license": "Unicode-3.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-icu_normalizer_data-2.4.0-LICENSE.txt",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "icu_properties",
+      "version": "2.4.0",
+      "license": "Unicode-3.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-icu_properties-2.4.0-LICENSE.txt",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "icu_properties_data",
+      "version": "2.4.0",
+      "license": "Unicode-3.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-icu_properties_data-2.4.0-LICENSE.txt",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "icu_provider",
+      "version": "2.4.0",
+      "license": "Unicode-3.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-icu_provider-2.4.0-LICENSE.txt",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "idna",
+      "version": "1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-idna-1.1.0-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-idna-1.1.0-LICENSE-MIT.txt",
+          "sha256": "b38f11f6096706e6de553dabe2a7ed142d59b6fa8c97e290c67496154745cdd5"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "idna_adapter",
+      "version": "1.2.2",
+      "license": "Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-idna_adapter-1.2.2-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-idna_adapter-1.2.2-LICENSE-MIT.txt",
+          "sha256": "8b43ce8accd61e9d370b5ca9e9c4f953279b5c239926c62315b40e24df51b726"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "image",
+      "version": "0.25.10",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-image-0.25.10-LICENSE-APACHE.txt",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "file": "cargo-image-0.25.10-LICENSE-MIT.txt",
+          "sha256": "c77a4cf9da729987d0fe7ccd811e3bd27393914ddf3d23467c18cc22954513b3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "image-webp",
+      "version": "0.2.4",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-image-webp-0.2.4-LICENSE-APACHE.txt",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "file": "cargo-image-webp-0.2.4-LICENSE-MIT.txt",
+          "sha256": "c77a4cf9da729987d0fe7ccd811e3bd27393914ddf3d23467c18cc22954513b3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "indexmap",
+      "version": "2.14.2",
+      "license": "Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-indexmap-2.14.2-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-indexmap-2.14.2-LICENSE-MIT.txt",
+          "sha256": "ecc269ef87fd38a1d98e30bfac9ba964a9dbd9315c3770fed98d4d7cb5882055"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "ipnet",
+      "version": "2.12.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-ipnet-2.12.2-LICENSE-APACHE.txt",
+          "sha256": "87d9feb9238c6bd8e0024fc4733b06cff036f89f36d93b7df1c8a0549bbb7a5b"
+        },
+        {
+          "file": "cargo-ipnet-2.12.2-LICENSE-MIT.txt",
+          "sha256": "47dc9ff29128ddfb4d6a0435383c9f89120bc374dbcc1dd00b933a0b28aa7865"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "itoa",
+      "version": "1.0.19",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-itoa-1.0.19-LICENSE-APACHE.txt",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cargo-itoa-1.0.19-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "jobserver",
+      "version": "0.1.35",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-jobserver-0.1.35-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-jobserver-0.1.35-LICENSE-MIT.txt",
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "kamadak-exif",
+      "version": "0.6.2",
+      "license": "BSD-2-Clause",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-kamadak-exif-0.6.2-LICENSE.txt",
+          "sha256": "17c496a77909a1f26006427d27e58a1d1514baa6a332240aa5fc543e3fa7295d"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "keyboard-types",
+      "version": "0.8.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-keyboard-types-0.8.3-LICENSE-APACHE.txt",
+          "sha256": "769f80b5bcb42ed0af4e4d2fd74e1ac9bf843cb80c5a29219d1ef3544428a6bb"
+        },
+        {
+          "file": "cargo-keyboard-types-0.8.3-LICENSE-MIT.txt",
+          "sha256": "31dbbab009f1b2e59a1622d5955dfafc38ebe834000215b49d954c6f85fe927c"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "khronos-egl",
+      "version": "6.0.0",
+      "license": "MIT/Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-khronos-egl-6.0.0-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-khronos-egl-6.0.0-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "khronos_api",
+      "version": "3.1.0",
+      "license": "Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-khronos_api-3.1.0-rust-windowing-gl-rs-f150967b1c44-LICENSE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "notice_source": [
+        "https://github.com/rust-windowing/gl-rs/blob/f150967b1c44ae888e6676f93f639ebc82771bdc/LICENSE"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "kurbo",
+      "version": "0.10.4",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-kurbo-0.10.4-LICENSE-APACHE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "file": "cargo-kurbo-0.10.4-LICENSE-MIT.txt",
+          "sha256": "23c23145f6eac25c28cdcc03d38506a5712a9a8cffb5bd5301457f6173ea696e"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "libc",
+      "version": "0.2.191",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-libc-0.2.191-LICENSE-APACHE.txt",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cargo-libc-0.2.191-LICENSE-MIT.txt",
+          "sha256": "123a331b5dbf04c30097fa43b8f858bc85df671fe776de498d01f3d6b7c1f69e"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "libloading",
+      "version": "0.8.9",
+      "license": "ISC",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-libloading-0.8.9-LICENSE.txt",
+          "sha256": "b29f8b01452350c20dd1af16ef83b598fea3053578ccc1c7a0ef40e57be2620f"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "libm",
+      "version": "0.2.16",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-libm-0.2.16-LICENSE.txt.txt",
+          "sha256": "3823dda7cf046602f4b4e77ec8e227863dc4736037cc85bb33d9f19febe16bb7"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "libsqlite3-sys",
+      "version": "0.30.1",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-libsqlite3-sys-0.30.1-LICENSE.txt",
+          "sha256": "f59ba65550f2a5adff98ec6478d783402c8e0a3eb515025c0b3438f3d30dc39e"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "lilt",
+      "version": "0.8.2",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-lilt-0.8.2-LICENSE.txt",
+          "sha256": "120b2f21f9b9f98ef4159de09f9a55a3afb6733dd1c0b1d9eeec7f136465b2cd"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "linebender_resource_handle",
+      "version": "0.1.1",
+      "license": "Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-linebender_resource_handle-0.1.1-LICENSE-APACHE.txt",
+          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+        },
+        {
+          "file": "cargo-linebender_resource_handle-0.1.1-LICENSE-MIT.txt",
+          "sha256": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "litemap",
+      "version": "0.8.3",
+      "license": "Unicode-3.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-litemap-0.8.3-LICENSE.txt",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "litrs",
+      "version": "1.0.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-litrs-1.0.1-LICENSE-APACHE.txt",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cargo-litrs-1.0.1-LICENSE-MIT.txt",
+          "sha256": "7dc1552e88f49132cb358b1b962fc5e79fa42d70bcbb88c526d33e45b8e98036"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "lock_api",
+      "version": "0.4.14",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-lock_api-0.4.14-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-lock_api-0.4.14-LICENSE-MIT.txt",
+          "sha256": "c9a75f18b9ab2927829a208fc6aa2cf4e63b8420887ba29cdb265d6619ae82d5"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "log",
+      "version": "0.4.35",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-log-0.4.35-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-log-0.4.35-LICENSE-MIT.txt",
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "lru",
+      "version": "0.16.4",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-lru-0.16.4-LICENSE.txt",
+          "sha256": "061dc50af2cd9340703daf61978af3200cf681b12ea67a323c33ba109a23a45e"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "memchr",
+      "version": "2.8.3",
+      "license": "Unlicense OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-memchr-2.8.3-COPYING.txt",
+          "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f"
+        },
+        {
+          "file": "cargo-memchr-2.8.3-LICENSE-MIT.txt",
+          "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "memmap2",
+      "version": "0.9.12",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-memmap2-0.9.12-LICENSE-APACHE.txt",
+          "sha256": "04ea4849dba9dcae07113850c6f1b1a69052c625210639914eee352023f750ad"
+        },
+        {
+          "file": "cargo-memmap2-0.9.12-LICENSE-MIT.txt",
+          "sha256": "0d25d03b5ab49576178ad0cae7a2648d12c17ad0452fe49c07e55e4b59aa5257"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "miniz_oxide",
+      "version": "0.8.9",
+      "license": "MIT OR Zlib OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-miniz_oxide-0.8.9-LICENSE.txt",
+          "sha256": "4108245a1f2df9d4e94df8abed5b4ba0759bb2f9b40a6b939f1be141077ae50b"
+        },
+        {
+          "file": "cargo-miniz_oxide-0.8.9-LICENSE-APACHE.md.txt",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "file": "cargo-miniz_oxide-0.8.9-LICENSE-MIT.md.txt",
+          "sha256": "799e9ca9d179295ef372f25d3769cdda7d25bb2668add6a6a1e22d1e4c678b8d"
+        },
+        {
+          "file": "cargo-miniz_oxide-0.8.9-LICENSE-ZLIB.md.txt",
+          "sha256": "0a54e647fe54104658b5e563c04c6f9edf251710e47bce692e0bd990a4ddaa39"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "miniz_oxide",
+      "version": "0.9.1",
+      "license": "MIT OR Zlib OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-miniz_oxide-0.9.1-LICENSE.txt",
+          "sha256": "4108245a1f2df9d4e94df8abed5b4ba0759bb2f9b40a6b939f1be141077ae50b"
+        },
+        {
+          "file": "cargo-miniz_oxide-0.9.1-LICENSE-APACHE.md.txt",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "file": "cargo-miniz_oxide-0.9.1-LICENSE-MIT.md.txt",
+          "sha256": "799e9ca9d179295ef372f25d3769cdda7d25bb2668add6a6a1e22d1e4c678b8d"
+        },
+        {
+          "file": "cargo-miniz_oxide-0.9.1-LICENSE-ZLIB.md.txt",
+          "sha256": "0a54e647fe54104658b5e563c04c6f9edf251710e47bce692e0bd990a4ddaa39"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "mio",
+      "version": "1.2.5",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-mio-1.2.5-LICENSE.txt",
+          "sha256": "07919255c7e04793d8ea760d6c2ce32d19f9ff02bdbdde3ce90b1e1880929a9b"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "moxcms",
+      "version": "0.8.1",
+      "license": "BSD-3-Clause OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-moxcms-0.8.1-LICENSE-APACHE.md.txt",
+          "sha256": "90bf2d659c43045111b65c733ab2a6d4cbcb422a098368c8c58a9ba3db4ed0c5"
+        },
+        {
+          "file": "cargo-moxcms-0.8.1-LICENSE.md.txt",
+          "sha256": "2aa92cada6431e75615e3fe6cb1a9082c98f777d48ae1c087c0da0e37f7b8bff"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "muda",
+      "version": "0.21.2",
+      "license": "Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-muda-0.21.2-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-muda-0.21.2-LICENSE-MIT.txt",
+          "sha256": "2ab5537b8c0cb1d475e2145b6a7994b04e7c71e6e5bd836f7f9c47c221a5ad9a"
+        },
+        {
+          "file": "cargo-muda-0.21.2-LICENSE.spdx.txt",
+          "sha256": "b99f9d43803f2ac979c50949df630bd8eeaf2fcd1b9fdb9093710d70f5dfb63d"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "mutate_once",
+      "version": "0.1.2",
+      "license": "BSD-2-Clause",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-mutate_once-0.1.2-LICENSE.txt",
+          "sha256": "0c1b89e5705ae3a3f7275120e175c8ce7b1f82b1752594f8c513ae467f9e6b22"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "naga",
+      "version": "27.0.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-naga-27.0.3-LICENSE.APACHE.txt",
+          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+        },
+        {
+          "file": "cargo-naga-27.0.3-LICENSE.MIT.txt",
+          "sha256": "dc0d97139e8205818c703741c7be7cb3b96888bd5917b8d6fc6133731e403c21"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "native-tls",
+      "version": "0.2.18",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-native-tls-0.2.18-LICENSE-APACHE.txt",
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "file": "cargo-native-tls-0.2.18-LICENSE-MIT.txt",
+          "sha256": "f2ad7982ddbfa8c45eb965315718c55b70b9cc311b49afacb50d5fe84173ae2c"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "num-traits",
+      "version": "0.2.19",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-num-traits-0.2.19-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-num-traits-0.2.19-LICENSE-MIT.txt",
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "once_cell",
+      "version": "1.21.4",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-once_cell-1.21.4-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-once_cell-1.21.4-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "option-ext",
+      "version": "0.2.0",
+      "license": "MPL-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-option-ext-0.2.0-LICENSE.txt.txt",
+          "sha256": "66a3107d5ad6a058aab753eaac2047ccb2ed0e39465dd0fe5844da3e300d5172"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "ordered-float",
+      "version": "5.5.1",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-ordered-float-5.5.1-LICENSE-MIT.txt",
+          "sha256": "f7715d38a3fa1b4ac97c5729740752505a39cb92ee83ab5b102aeb5eaa7cdea4"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "parking_lot",
+      "version": "0.12.5",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-parking_lot-0.12.5-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-parking_lot-0.12.5-LICENSE-MIT.txt",
+          "sha256": "c9a75f18b9ab2927829a208fc6aa2cf4e63b8420887ba29cdb265d6619ae82d5"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "parking_lot_core",
+      "version": "0.9.12",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-parking_lot_core-0.9.12-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-parking_lot_core-0.9.12-LICENSE-MIT.txt",
+          "sha256": "c9a75f18b9ab2927829a208fc6aa2cf4e63b8420887ba29cdb265d6619ae82d5"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "percent-encoding",
+      "version": "2.3.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-percent-encoding-2.3.2-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-percent-encoding-2.3.2-LICENSE-MIT.txt",
+          "sha256": "b38f11f6096706e6de553dabe2a7ed142d59b6fa8c97e290c67496154745cdd5"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "pin-project-lite",
+      "version": "0.2.17",
+      "license": "Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-pin-project-lite-0.2.17-LICENSE-APACHE.txt",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "file": "cargo-pin-project-lite-0.2.17-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "pkg-config",
+      "version": "0.3.34",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-pkg-config-0.3.34-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-pkg-config-0.3.34-LICENSE-MIT.txt",
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "png",
+      "version": "0.18.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-png-0.18.1-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-png-0.18.1-LICENSE-MIT.txt",
+          "sha256": "eaf40297c75da471f7cda1f3458e8d91b4b2ec866e609527a13acfa93b638652"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "potential_utf",
+      "version": "0.1.6",
+      "license": "Unicode-3.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-potential_utf-0.1.6-LICENSE.txt",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "presser",
+      "version": "0.3.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-presser-0.3.1-LICENSE-APACHE.txt",
+          "sha256": "8173d5c29b4f956d532781d2b86e4e30f83e6b7878dce18c919451d6ba707c90"
+        },
+        {
+          "file": "cargo-presser-0.3.1-LICENSE-MIT.txt",
+          "sha256": "090a294a492ab2f41388252312a65cf2f0e423330b721a68c6665ac64766753b"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "proc-macro2",
+      "version": "1.0.107",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-proc-macro2-1.0.107-LICENSE-APACHE.txt",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cargo-proc-macro2-1.0.107-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "profiling",
+      "version": "1.0.18",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-profiling-1.0.18-aclysma-profiling-8271551172eb-LICENSE-MIT.txt",
+          "sha256": "c8167fdeeed46d3f244d3f85c5bf998ce889343691c32be2c61a8bc4b5c08333"
+        },
+        {
+          "file": "cargo-profiling-1.0.18-aclysma-profiling-8271551172eb-LICENSE-APACHE.txt",
+          "sha256": "10d30a673cd5e9349bdc02aeb48f14b3386d27d0da32df8f0a555d4aa16aa551"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "notice_source": [
+        "https://github.com/aclysma/profiling/blob/8271551172eb6fa4cba47369aedd93790c623df9/LICENSE-MIT",
+        "https://github.com/aclysma/profiling/blob/8271551172eb6fa4cba47369aedd93790c623df9/LICENSE-APACHE"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "pxfm",
+      "version": "0.1.30",
+      "license": "BSD-3-Clause OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-pxfm-0.1.30-LICENSE-APACHE.md.txt",
+          "sha256": "90bf2d659c43045111b65c733ab2a6d4cbcb422a098368c8c58a9ba3db4ed0c5"
+        },
+        {
+          "file": "cargo-pxfm-0.1.30-LICENSE.md.txt",
+          "sha256": "2aa92cada6431e75615e3fe6cb1a9082c98f777d48ae1c087c0da0e37f7b8bff"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "quick-error",
+      "version": "2.0.1",
+      "license": "MIT/Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-quick-error-2.0.1-LICENSE-APACHE.txt",
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "file": "cargo-quick-error-2.0.1-LICENSE-MIT.txt",
+          "sha256": "058f01fe181608d027fcde7e528fc03ea3cf90f30903c407644b0a9bbc54f500"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "quote",
+      "version": "1.0.47",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-quote-1.0.47-LICENSE-APACHE.txt",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cargo-quote-1.0.47-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "range-alloc",
+      "version": "0.1.5",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-range-alloc-0.1.5-LICENSE.APACHE.txt",
+          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+        },
+        {
+          "file": "cargo-range-alloc-0.1.5-LICENSE.MIT.txt",
+          "sha256": "ba00052102ed87948bb8822d6e1c496260c83042887b22bb5caad922ec025a60"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "rangemap",
+      "version": "1.8.0",
+      "license": "MIT/Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-rangemap-1.8.0-LICENSE-APACHE.txt",
+          "sha256": "1c7745cc26c7294bc9dbc883bcd50700b99a8c0f4859bfce84ec555098ce1ab5"
+        },
+        {
+          "file": "cargo-rangemap-1.8.0-LICENSE-MIT.txt",
+          "sha256": "29a4c3823ee29ee5a97c145574a1bac20629fd5e6708be1df0d25bab563e093c"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "raw-window-handle",
+      "version": "0.6.2",
+      "license": "MIT OR Apache-2.0 OR Zlib",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-raw-window-handle-0.6.2-LICENSE-APACHE.md.txt",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "file": "cargo-raw-window-handle-0.6.2-LICENSE-MIT.md.txt",
+          "sha256": "9c5a80639a57c1c945570e7ebbca0706305849ce3c098021325cca9db2f7acc4"
+        },
+        {
+          "file": "cargo-raw-window-handle-0.6.2-LICENSE-ZLIB.md.txt",
+          "sha256": "ae895c8576e682f310fb70d93d9f99b1dd82872094c54a8f6cdfe2ca5c2d6ecb"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "read-fonts",
+      "version": "0.35.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-read-fonts-0.35.0-LICENSE-APACHE.txt",
+          "sha256": "a14f7d685a79c0f4fb64aee305527a6d5fa55f2401f4e6d688d7b1301868e6c0"
+        },
+        {
+          "file": "cargo-read-fonts-0.35.0-LICENSE-MIT.txt",
+          "sha256": "8a62fa27ffdccc3df19dce90f8bb3d572e27aecffc1a383d0c2601834dcec434"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "read-fonts",
+      "version": "0.41.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-read-fonts-0.41.0-LICENSE-APACHE.txt",
+          "sha256": "eba684204073ed715c4abb48129acdfd2bff8ae48339e6a7da3b341d3027b7f0"
+        },
+        {
+          "file": "cargo-read-fonts-0.41.0-LICENSE-MIT.txt",
+          "sha256": "7b4c9a3946dfcea7967582760e963e27799e225dcf20565c8ef55324bb017427"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "renderdoc-sys",
+      "version": "1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-renderdoc-sys-1.1.0-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-renderdoc-sys-1.1.0-LICENSE-MIT.txt",
+          "sha256": "24b2f2eff5a7622e87162823e260f00c6dfbce0e26d585d3d28c785f1edc80ed"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "reqwest",
+      "version": "0.12.28",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-reqwest-0.12.28-LICENSE-APACHE.txt",
+          "sha256": "751963a8b88c0e3a9f27e98933079fbcf09b9998b2c13ac49c2e4d58444520d6"
+        },
+        {
+          "file": "cargo-reqwest-0.12.28-LICENSE-MIT.txt",
+          "sha256": "47d4e1803702728e03d30f8a848ae2249ba274bbd9f8443e803f7924d83cd371"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "rfd",
+      "version": "0.18.0",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-rfd-0.18.0-LICENSE.txt",
+          "sha256": "65fc947f4bac882a2cd104ef73c246b1b037059df9f2b3a58b7f77f0b9e56071"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "rusqlite",
+      "version": "0.32.1",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-rusqlite-0.32.1-LICENSE.txt",
+          "sha256": "f59ba65550f2a5adff98ec6478d783402c8e0a3eb515025c0b3438f3d30dc39e"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "rustc-hash",
+      "version": "1.1.0",
+      "license": "Apache-2.0/MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-rustc-hash-1.1.0-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-rustc-hash-1.1.0-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "rustc-hash",
+      "version": "2.1.3",
+      "license": "Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-rustc-hash-2.1.3-LICENSE-APACHE.txt",
+          "sha256": "95bd3988beee069fa2848f648dab43cc6e0b2add2ad6bcb17360caf749802bcc"
+        },
+        {
+          "file": "cargo-rustc-hash-2.1.3-LICENSE-MIT.txt",
+          "sha256": "30fefc3a7d6a0041541858293bcbea2dde4caa4c0a5802f996a7f7e8c0085652"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "rustls-pki-types",
+      "version": "1.16.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-rustls-pki-types-1.16.0-LICENSE-APACHE.txt",
+          "sha256": "45fd05c4865e7c350b98ad7ac50e1b15462d49af4a91e9b0c9dd933dc9a69742"
+        },
+        {
+          "file": "cargo-rustls-pki-types-1.16.0-LICENSE-MIT.txt",
+          "sha256": "9117d922e667125508dde62b02c1f57ed22f5ad21eb536aa2e2d99e1c796e639"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "ryu",
+      "version": "1.0.23",
+      "license": "Apache-2.0 OR BSL-1.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-ryu-1.0.23-LICENSE-APACHE.txt",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cargo-ryu-1.0.23-LICENSE-BOOST.txt",
+          "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "schannel",
+      "version": "0.1.30",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-schannel-0.1.30-LICENSE.md.txt",
+          "sha256": "aa72991ac35b4de0034da0afe943e62b48c4092fc2ba13ae47806d8e9a4ad551"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "scopeguard",
+      "version": "1.2.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-scopeguard-1.2.0-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-scopeguard-1.2.0-LICENSE-MIT.txt",
+          "sha256": "fb77f0a9c53e473abe5103c8632ef9f0f2874d4fb3f17cb2d8c661aab9cee9d7"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "self_cell",
+      "version": "1.3.0",
+      "license": "Apache-2.0 OR GPL-2.0-only",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-self_cell-1.3.0-LICENSE-APACHE.txt",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "file": "cargo-self_cell-1.3.0-LICENSE-GPLv2.txt",
+          "sha256": "f9c375a1be4a41f7b70301dd83c91cb89e41567478859b77eef375a52d782505"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "serde",
+      "version": "1.0.229",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-serde-1.0.229-LICENSE-APACHE.txt",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cargo-serde-1.0.229-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "serde_core",
+      "version": "1.0.229",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-serde_core-1.0.229-LICENSE-APACHE.txt",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cargo-serde_core-1.0.229-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "serde_derive",
+      "version": "1.0.229",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-serde_derive-1.0.229-LICENSE-APACHE.txt",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cargo-serde_derive-1.0.229-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "serde_json",
+      "version": "1.0.154",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-serde_json-1.0.154-LICENSE-APACHE.txt",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cargo-serde_json-1.0.154-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "serde_urlencoded",
+      "version": "0.7.1",
+      "license": "MIT/Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-serde_urlencoded-0.7.1-LICENSE-APACHE.txt",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cargo-serde_urlencoded-0.7.1-LICENSE-MIT.txt",
+          "sha256": "b9eb266294324f672cbe945fe8f2e32f85024f0d61a1a7d14382cdde0ac44769"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "sha2",
+      "version": "0.10.9",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-sha2-0.10.9-LICENSE-APACHE.txt",
+          "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5"
+        },
+        {
+          "file": "cargo-sha2-0.10.9-LICENSE-MIT.txt",
+          "sha256": "b4eb00df6e2a4d22518fcaa6a2b4646f249b3a3c9814509b22bd2091f1392ff1"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "shlex",
+      "version": "2.0.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-shlex-2.0.1-LICENSE-APACHE.txt",
+          "sha256": "553fffcd9b1cb158bc3e9edc35da85ca5c3b3d7d2e61c883ebcfa8a65814b583"
+        },
+        {
+          "file": "cargo-shlex-2.0.1-LICENSE-MIT.txt",
+          "sha256": "4455bf75a91154108304cb283e0fea9948c14f13e20d60887cf2552449dea3b1"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "simd-adler32",
+      "version": "0.3.10",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-simd-adler32-0.3.10-LICENSE.md.txt",
+          "sha256": "42a35170233e83e18856792e748de4c1ce4a63b2afce9a370c89ef3fe23f9f2d"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "skrifa",
+      "version": "0.37.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-skrifa-0.37.0-LICENSE-APACHE.txt",
+          "sha256": "a14f7d685a79c0f4fb64aee305527a6d5fa55f2401f4e6d688d7b1301868e6c0"
+        },
+        {
+          "file": "cargo-skrifa-0.37.0-LICENSE-MIT.txt",
+          "sha256": "8a62fa27ffdccc3df19dce90f8bb3d572e27aecffc1a383d0c2601834dcec434"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "skrifa",
+      "version": "0.44.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-skrifa-0.44.0-LICENSE-APACHE.txt",
+          "sha256": "eba684204073ed715c4abb48129acdfd2bff8ae48339e6a7da3b341d3027b7f0"
+        },
+        {
+          "file": "cargo-skrifa-0.44.0-LICENSE-MIT.txt",
+          "sha256": "7b4c9a3946dfcea7967582760e963e27799e225dcf20565c8ef55324bb017427"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "slab",
+      "version": "0.4.12",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-slab-0.4.12-LICENSE.txt",
+          "sha256": "8ce0830173fdac609dfb4ea603fdc002c2f4af0dc9b1a005653f5da9cf534b18"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "slotmap",
+      "version": "1.1.1",
+      "license": "Zlib",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-slotmap-1.1.1-LICENSE.txt",
+          "sha256": "6cec81441b2ab2b5090954c1fb5d0bcca81b86487b5849061fa8952d20ef67d4"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "smallvec",
+      "version": "1.16.5",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-smallvec-1.16.5-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-smallvec-1.16.5-LICENSE-MIT.txt",
+          "sha256": "0b28172679e0009b655da42797c03fd163a3379d5cfa67ba1f1655e974a2a1a9"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "smol_str",
+      "version": "0.2.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-smol_str-0.2.2-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-smol_str-0.2.2-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "socket2",
+      "version": "0.6.5",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-socket2-0.6.5-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-socket2-0.6.5-LICENSE-MIT.txt",
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "softbuffer",
+      "version": "0.4.8",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-softbuffer-0.4.8-LICENSE-APACHE.txt",
+          "sha256": "a4445427440043e8ce6fadf7a43fb906cb0d7f6c573a560a9f142cf9f9bf8ff4"
+        },
+        {
+          "file": "cargo-softbuffer-0.4.8-LICENSE-MIT.txt",
+          "sha256": "0463bfa47d6d763d8c824333efb0e6d6df3946c13c3b077c78ed9f23ca50d0f2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "spirv",
+      "version": "0.3.0+sdk-1.3.268.0",
+      "license": "Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-spirv-0.3.0_sdk-1.3.268.0-gfx-rs-rspirv-e91a5debc10c-LICENSE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "notice_source": [
+        "https://github.com/gfx-rs/rspirv/blob/e91a5debc10c395b36db7721dfff6326d697a1e2/LICENSE"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "stable_deref_trait",
+      "version": "1.2.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-stable_deref_trait-1.2.1-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-stable_deref_trait-1.2.1-LICENSE-MIT.txt",
+          "sha256": "5e05b024f653a5ce199e77cbbbd42fb5553562ec714b819421ed0c3e552a75d7"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "static_assertions",
+      "version": "1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-static_assertions-1.1.0-LICENSE-APACHE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "file": "cargo-static_assertions-1.1.0-LICENSE-MIT.txt",
+          "sha256": "ea084a2373ebc1f0902c09266e7bf25a05ab3814c1805bb017ffa7308f90c061"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "strict-num",
+      "version": "0.1.1",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-strict-num-0.1.1-LICENSE.txt",
+          "sha256": "3085885678bb161f6c472bbd331f66a2550b555eb76128f7f8247779128199c0"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "svg_fmt",
+      "version": "0.4.5",
+      "license": "MIT/Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-svg_fmt-0.4.5-nical-rust_debug-93f414cd572b-LICENSE.txt",
+          "sha256": "7e98bed7f100747aaae7d82ab94fbe6b76fd6b84b09a3aaa413bff8196d0fbb1"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "notice_source": [
+        "https://github.com/nical/rust_debug/blob/93f414cd572b5c2781df93dbdc068ed13443d05a/LICENSE"
+      ],
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "swash",
+      "version": "0.2.10",
+      "license": "Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-swash-0.2.10-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-swash-0.2.10-LICENSE-MIT.txt",
+          "sha256": "122dadfc2eb4de0f4bafcd9eb4e7502cfe338a7965ebd1d18708cc5050f43f76"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "syn",
+      "version": "2.0.119",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-syn-2.0.119-LICENSE-APACHE.txt",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cargo-syn-2.0.119-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "syn",
+      "version": "3.0.10",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-syn-3.0.10-LICENSE-APACHE.txt",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cargo-syn-3.0.10-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "sync_wrapper",
+      "version": "1.0.2",
+      "license": "Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-sync_wrapper-1.0.2-LICENSE.txt",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "synstructure",
+      "version": "0.14.0",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-synstructure-0.14.0-LICENSE.txt",
+          "sha256": "219920e865eee70b7dcfc948a86b099e7f4fe2de01bcca2ca9a20c0a033f2b59"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "sys-locale",
+      "version": "0.3.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-sys-locale-0.3.2-LICENSE-APACHE.txt",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "file": "cargo-sys-locale-0.3.2-LICENSE-MIT.txt",
+          "sha256": "5cc390ab5e5e6507f467368cbab1297552d64bfd863f4b496c7928508bcfefd8"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tempfile",
+      "version": "3.27.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-tempfile-3.27.0-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-tempfile-3.27.0-LICENSE-MIT.txt",
+          "sha256": "8b427f5bc501764575e52ba4f9d95673cf8f6d80a86d0d06599852e1a9a20a36"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "termcolor",
+      "version": "1.4.1",
+      "license": "Unlicense OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-termcolor-1.4.1-COPYING.txt",
+          "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f"
+        },
+        {
+          "file": "cargo-termcolor-1.4.1-LICENSE-MIT.txt",
+          "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "thiserror",
+      "version": "1.0.69",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-thiserror-1.0.69-LICENSE-APACHE.txt",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cargo-thiserror-1.0.69-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "thiserror",
+      "version": "2.0.21",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-thiserror-2.0.21-LICENSE-APACHE.txt",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cargo-thiserror-2.0.21-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "thiserror-impl",
+      "version": "1.0.69",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-thiserror-impl-1.0.69-LICENSE-APACHE.txt",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cargo-thiserror-impl-1.0.69-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "thiserror-impl",
+      "version": "2.0.21",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-thiserror-impl-2.0.21-LICENSE-APACHE.txt",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cargo-thiserror-impl-2.0.21-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tiny-skia",
+      "version": "0.11.4",
+      "license": "BSD-3-Clause",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-tiny-skia-0.11.4-LICENSE.txt",
+          "sha256": "6d41e05f1d54fe726997cb0334ec539f1dff50600b1d5d90462ec2b392770ced"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tiny-skia-path",
+      "version": "0.11.4",
+      "license": "BSD-3-Clause",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-tiny-skia-path-0.11.4-LICENSE.txt",
+          "sha256": "6d41e05f1d54fe726997cb0334ec539f1dff50600b1d5d90462ec2b392770ced"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tinystr",
+      "version": "0.8.5",
+      "license": "Unicode-3.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-tinystr-0.8.5-LICENSE.txt",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tinyvec",
+      "version": "1.13.3",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-tinyvec-1.13.3-LICENSE-APACHE.md.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "file": "cargo-tinyvec-1.13.3-LICENSE-MIT.md.txt",
+          "sha256": "fd80a26fbb3f644af1fa994134446702932968519797227e07a1368dea80f0bc"
+        },
+        {
+          "file": "cargo-tinyvec-1.13.3-LICENSE-ZLIB.md.txt",
+          "sha256": "84b34dd7608f7fb9b17bd588a6bf392bf7de504e2716f024a77d89f1b145a151"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tokio",
+      "version": "1.54.1",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-tokio-1.54.1-LICENSE.txt",
+          "sha256": "253cd04c6714889df2d32f3f64d669179a1c95c76ac43c40882c52eb06bc3552"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tokio-macros",
+      "version": "2.7.2",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-tokio-macros-2.7.2-LICENSE.txt",
+          "sha256": "0b83dc40cba89b9922bb84b0a9c7d2768ce37c1d7e138b7424fd4549915778c9"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tokio-native-tls",
+      "version": "0.3.1",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-tokio-native-tls-0.3.1-LICENSE.txt",
+          "sha256": "898b1ae9821e98daf8964c8d6c7f61641f5f5aa78ad500020771c0939ee0dea1"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tower",
+      "version": "0.5.3",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-tower-0.5.3-LICENSE.txt",
+          "sha256": "4249c8e6c5ebb85f97c77e6457c6fafc1066406eb8f1ef61e796fbdc5ff18482"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tower-http",
+      "version": "0.6.11",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-tower-http-0.6.11-LICENSE.txt",
+          "sha256": "5049cf464977eff4b4fcfa7988d84e74116956a3eb9d5f1d451b3f828f945233"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tower-layer",
+      "version": "0.3.3",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-tower-layer-0.3.3-LICENSE.txt",
+          "sha256": "4249c8e6c5ebb85f97c77e6457c6fafc1066406eb8f1ef61e796fbdc5ff18482"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tower-service",
+      "version": "0.3.3",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-tower-service-0.3.3-LICENSE.txt",
+          "sha256": "4249c8e6c5ebb85f97c77e6457c6fafc1066406eb8f1ef61e796fbdc5ff18482"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tracing",
+      "version": "0.1.44",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-tracing-0.1.44-LICENSE.txt",
+          "sha256": "898b1ae9821e98daf8964c8d6c7f61641f5f5aa78ad500020771c0939ee0dea1"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tracing-attributes",
+      "version": "0.1.31",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-tracing-attributes-0.1.31-LICENSE.txt",
+          "sha256": "898b1ae9821e98daf8964c8d6c7f61641f5f5aa78ad500020771c0939ee0dea1"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tracing-core",
+      "version": "0.1.36",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-tracing-core-0.1.36-LICENSE.txt",
+          "sha256": "898b1ae9821e98daf8964c8d6c7f61641f5f5aa78ad500020771c0939ee0dea1"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tray-icon",
+      "version": "0.26.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-tray-icon-0.26.1-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-tray-icon-0.26.1-LICENSE-MIT.txt",
+          "sha256": "2ab5537b8c0cb1d475e2145b6a7994b04e7c71e6e5bd836f7f9c47c221a5ad9a"
+        },
+        {
+          "file": "cargo-tray-icon-0.26.1-LICENSE.spdx.txt",
+          "sha256": "6c1e5d0ccf5e8951401cb964036ae664d52fc8d1148173b53bc54fc534f5d404"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "try-lock",
+      "version": "0.2.5",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-try-lock-0.2.5-LICENSE.txt",
+          "sha256": "c816a0749cdc6bf062a5111c159723de51b2bfac66a1dac2655abd9e6b1583eb"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "ttf-parser",
+      "version": "0.25.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-ttf-parser-0.25.1-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-ttf-parser-0.25.1-LICENSE-MIT.txt",
+          "sha256": "f3c9fe731c701ed77fd5fbaac573872af04dc5869385eb9bd5e3c73c42713814"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "typenum",
+      "version": "1.20.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-typenum-1.20.1-LICENSE.txt",
+          "sha256": "db11fec9946737df39ca3898d9cd8c10ec6f6c3a884a6802b0ad0b81b4e8f23a"
+        },
+        {
+          "file": "cargo-typenum-1.20.1-LICENSE-APACHE.txt",
+          "sha256": "516b24e051bf5630880ebbd55c40a25ce9552ebaf8970a53e8976eb70e522406"
+        },
+        {
+          "file": "cargo-typenum-1.20.1-LICENSE-MIT.txt",
+          "sha256": "a825bd853ab71619a4923d7b4311221427848070ff44d990da39b0b274c1683f"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "unicode-bidi",
+      "version": "0.3.18",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-unicode-bidi-0.3.18-COPYRIGHT.txt",
+          "sha256": "edb20b474f6cbd4f4db066b54a9e0f687d0009d309412a63431189b59b8e2a07"
+        },
+        {
+          "file": "cargo-unicode-bidi-0.3.18-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-unicode-bidi-0.3.18-LICENSE-MIT.txt",
+          "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "unicode-ident",
+      "version": "1.0.27",
+      "license": "(MIT OR Apache-2.0) AND Unicode-3.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-unicode-ident-1.0.27-LICENSE-APACHE.txt",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cargo-unicode-ident-1.0.27-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "file": "cargo-unicode-ident-1.0.27-LICENSE-UNICODE.txt",
+          "sha256": "f7db81051789b729fea528a63ec4c938fdcb93d9d61d97dc8cc2e9df6d47f2a1"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "unicode-linebreak",
+      "version": "0.1.5",
+      "license": "Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-unicode-linebreak-0.1.5-LICENSE.txt",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "unicode-script",
+      "version": "0.5.9",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-unicode-script-0.5.9-LICENSE-APACHE.txt",
+          "sha256": "7cbb56d1b5d83d735056b363ab20958524120afafc4ad8206e6be98cdec5d737"
+        },
+        {
+          "file": "cargo-unicode-script-0.5.9-LICENSE-MIT.txt",
+          "sha256": "7ad3ea8ca3caf894db98c3f31d5d4949173ffa93c883ef19a9e529ad48960f8c"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "unicode-segmentation",
+      "version": "1.13.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-unicode-segmentation-1.13.3-COPYRIGHT.txt",
+          "sha256": "23860c2a7b5d96b21569afedf033469bab9fe14a1b24a35068b8641c578ce24d"
+        },
+        {
+          "file": "cargo-unicode-segmentation-1.13.3-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-unicode-segmentation-1.13.3-LICENSE-MIT.txt",
+          "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "unicode-width",
+      "version": "0.2.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-unicode-width-0.2.3-COPYRIGHT.txt",
+          "sha256": "23860c2a7b5d96b21569afedf033469bab9fe14a1b24a35068b8641c578ce24d"
+        },
+        {
+          "file": "cargo-unicode-width-0.2.3-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-unicode-width-0.2.3-LICENSE-MIT.txt",
+          "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "url",
+      "version": "2.5.8",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-url-2.5.8-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-url-2.5.8-LICENSE-MIT.txt",
+          "sha256": "b38f11f6096706e6de553dabe2a7ed142d59b6fa8c97e290c67496154745cdd5"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "utf8_iter",
+      "version": "1.1.0",
+      "license": "Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-utf8_iter-1.1.0-COPYRIGHT.txt",
+          "sha256": "c30152c94a6d75e021adbc52b3a52470366a46edb917e17deae3259251af244c"
+        },
+        {
+          "file": "cargo-utf8_iter-1.1.0-LICENSE-APACHE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "file": "cargo-utf8_iter-1.1.0-LICENSE-MIT.txt",
+          "sha256": "3fa4ca83dcc9237839b1bdeb2e6d16bdfb5ec0c5ce42b24694d8bbf0dcbef72c"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "utf_types",
+      "version": "1.0.0",
+      "license": "Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-utf_types-1.0.0-COPYRIGHT.txt",
+          "sha256": "3210be7332b5bdf48eb24a945258b9f38616a2cceb0dfc06e3c3c7e9740475a0"
+        },
+        {
+          "file": "cargo-utf_types-1.0.0-LICENSE-APACHE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "file": "cargo-utf_types-1.0.0-LICENSE-MIT.txt",
+          "sha256": "3fa4ca83dcc9237839b1bdeb2e6d16bdfb5ec0c5ce42b24694d8bbf0dcbef72c"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "uuid",
+      "version": "1.29.2",
+      "license": "Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-uuid-1.29.2-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-uuid-1.29.2-LICENSE-MIT.txt",
+          "sha256": "436bc5a105d8e57dcd8778730f3754f7bf39c14d2f530e4cde4bd2d17a83ec3d"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "vcpkg",
+      "version": "0.2.15",
+      "license": "MIT/Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-vcpkg-0.2.15-LICENSE-APACHE.txt",
+          "sha256": "60c93a31f490375aadf64098b75f10715010379541021e00261045d7800611d3"
+        },
+        {
+          "file": "cargo-vcpkg-0.2.15-LICENSE-MIT.txt",
+          "sha256": "016d20f335060a70e79d9fcf8dfaa6201114d65d592211f4bdfb8ae9ca2bc1dc"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "version_check",
+      "version": "0.9.5",
+      "license": "MIT/Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-version_check-0.9.5-LICENSE-APACHE.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cargo-version_check-0.9.5-LICENSE-MIT.txt",
+          "sha256": "b7e650f3fce5c53249d1cdc608b54df156a97edd636cf9d23498d0cfe7aec63e"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "want",
+      "version": "0.3.2",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-want-0.3.2-LICENSE.txt",
+          "sha256": "a65f5d0a945d267751344c95665945b90c030ea107faf5c85d518929886187da"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "web-time",
+      "version": "1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-web-time-1.1.0-LICENSE-APACHE.txt",
+          "sha256": "54a744942eb3fa63a74d8d359989ed6962c04f3f10ff20cfa08ff8aa7efbe4e6"
+        },
+        {
+          "file": "cargo-web-time-1.1.0-LICENSE-MIT.txt",
+          "sha256": "f428305bbf2e70fbd807af0f3c7ac1b7acfb95311640f451e9d2e48db6d7e96b"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "wgpu",
+      "version": "27.0.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-wgpu-27.0.1-LICENSE.APACHE.txt",
+          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+        },
+        {
+          "file": "cargo-wgpu-27.0.1-LICENSE.MIT.txt",
+          "sha256": "dc0d97139e8205818c703741c7be7cb3b96888bd5917b8d6fc6133731e403c21"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "wgpu-core",
+      "version": "27.0.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-wgpu-core-27.0.3-LICENSE.APACHE.txt",
+          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+        },
+        {
+          "file": "cargo-wgpu-core-27.0.3-LICENSE.MIT.txt",
+          "sha256": "dc0d97139e8205818c703741c7be7cb3b96888bd5917b8d6fc6133731e403c21"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "wgpu-core-deps-windows-linux-android",
+      "version": "27.0.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-wgpu-core-deps-windows-linux-android-27.0.0-LICENSE.APACHE.txt",
+          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+        },
+        {
+          "file": "cargo-wgpu-core-deps-windows-linux-android-27.0.0-LICENSE.MIT.txt",
+          "sha256": "dc0d97139e8205818c703741c7be7cb3b96888bd5917b8d6fc6133731e403c21"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "wgpu-hal",
+      "version": "27.0.4",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-wgpu-hal-27.0.4-LICENSE.APACHE.txt",
+          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+        },
+        {
+          "file": "cargo-wgpu-hal-27.0.4-LICENSE.MIT.txt",
+          "sha256": "dc0d97139e8205818c703741c7be7cb3b96888bd5917b8d6fc6133731e403c21"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "wgpu-types",
+      "version": "27.0.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-wgpu-types-27.0.1-LICENSE.APACHE.txt",
+          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+        },
+        {
+          "file": "cargo-wgpu-types-27.0.1-LICENSE.MIT.txt",
+          "sha256": "dc0d97139e8205818c703741c7be7cb3b96888bd5917b8d6fc6133731e403c21"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "winapi-util",
+      "version": "0.1.11",
+      "license": "Unlicense OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-winapi-util-0.1.11-COPYING.txt",
+          "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f"
+        },
+        {
+          "file": "cargo-winapi-util-0.1.11-LICENSE-MIT.txt",
+          "sha256": "cb3c929a05e6cbc9de9ab06a4c57eeb60ca8c724bef6c138c87d3a577e27aa14"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "window_clipboard",
+      "version": "0.5.1",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-window_clipboard-0.5.1-LICENSE.txt",
+          "sha256": "7faec985f3e9b1c4a1df646bfedc304ba67e409447f7ab7f4f591f68708d85dc"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows",
+      "version": "0.58.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-windows-0.58.0-license-apache-2.0.txt",
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "file": "cargo-windows-0.58.0-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows",
+      "version": "0.62.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-windows-0.62.2-license-apache-2.0.txt",
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "file": "cargo-windows-0.62.2-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-collections",
+      "version": "0.3.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-windows-collections-0.3.2-license-apache-2.0.txt",
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "file": "cargo-windows-collections-0.3.2-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-core",
+      "version": "0.58.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-windows-core-0.58.0-license-apache-2.0.txt",
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "file": "cargo-windows-core-0.58.0-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-core",
+      "version": "0.62.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-windows-core-0.62.2-license-apache-2.0.txt",
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "file": "cargo-windows-core-0.62.2-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-future",
+      "version": "0.3.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-windows-future-0.3.2-license-apache-2.0.txt",
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "file": "cargo-windows-future-0.3.2-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-implement",
+      "version": "0.58.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-windows-implement-0.58.0-license-apache-2.0.txt",
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "file": "cargo-windows-implement-0.58.0-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-implement",
+      "version": "0.60.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-windows-implement-0.60.2-license-apache-2.0.txt",
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "file": "cargo-windows-implement-0.60.2-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-interface",
+      "version": "0.58.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-windows-interface-0.58.0-license-apache-2.0.txt",
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "file": "cargo-windows-interface-0.58.0-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-interface",
+      "version": "0.59.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-windows-interface-0.59.3-license-apache-2.0.txt",
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "file": "cargo-windows-interface-0.59.3-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-link",
+      "version": "0.2.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-windows-link-0.2.1-license-apache-2.0.txt",
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "file": "cargo-windows-link-0.2.1-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-numerics",
+      "version": "0.3.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-windows-numerics-0.3.1-license-apache-2.0.txt",
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "file": "cargo-windows-numerics-0.3.1-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-result",
+      "version": "0.2.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-windows-result-0.2.0-license-apache-2.0.txt",
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "file": "cargo-windows-result-0.2.0-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-result",
+      "version": "0.4.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-windows-result-0.4.1-license-apache-2.0.txt",
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "file": "cargo-windows-result-0.4.1-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-strings",
+      "version": "0.1.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-windows-strings-0.1.0-license-apache-2.0.txt",
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "file": "cargo-windows-strings-0.1.0-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-strings",
+      "version": "0.5.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-windows-strings-0.5.1-license-apache-2.0.txt",
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "file": "cargo-windows-strings-0.5.1-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-sys",
+      "version": "0.52.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-windows-sys-0.52.0-license-apache-2.0.txt",
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "file": "cargo-windows-sys-0.52.0-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-sys",
+      "version": "0.61.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-windows-sys-0.61.2-license-apache-2.0.txt",
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "file": "cargo-windows-sys-0.61.2-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-targets",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-windows-targets-0.52.6-license-apache-2.0.txt",
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "file": "cargo-windows-targets-0.52.6-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-threading",
+      "version": "0.2.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-windows-threading-0.2.1-license-apache-2.0.txt",
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "file": "cargo-windows-threading-0.2.1-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows_x86_64_gnu",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-windows_x86_64_gnu-0.52.6-license-apache-2.0.txt",
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "file": "cargo-windows_x86_64_gnu-0.52.6-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "winit",
+      "version": "0.30.13",
+      "license": "Apache-2.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-winit-0.30.13-LICENSE.txt",
+          "sha256": "6dc0e068dcf3a5bc8e054205b85b7720e1d49265bbc64bf515d2cf79197df69a"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "writeable",
+      "version": "0.6.4",
+      "license": "Unicode-3.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-writeable-0.6.4-LICENSE.txt",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "xml-rs",
+      "version": "0.8.29",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-xml-rs-0.8.29-LICENSE.txt",
+          "sha256": "0dc18d924dc0a5f41172a393012843a5eaaef338e795b3645da9cc3b6068220b"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "yazi",
+      "version": "0.2.2",
+      "license": "Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-yazi-0.2.2-LICENSE-APACHE.txt",
+          "sha256": "7cfd738c53d61c79f07e348f622bf7707c9084237054d37fbe07788a75f5881c"
+        },
+        {
+          "file": "cargo-yazi-0.2.2-LICENSE-MIT.txt",
+          "sha256": "df62e3ef3f207c91073fedd78b4156a278681d0dd3f942379242c62c6a71a3ec"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "yoke",
+      "version": "0.8.4",
+      "license": "Unicode-3.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-yoke-0.8.4-LICENSE.txt",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "yoke-derive",
+      "version": "0.8.4",
+      "license": "Unicode-3.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-yoke-derive-0.8.4-LICENSE.txt",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zeno",
+      "version": "0.3.3",
+      "license": "Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-zeno-0.3.3-LICENSE-APACHE.txt",
+          "sha256": "7cfd738c53d61c79f07e348f622bf7707c9084237054d37fbe07788a75f5881c"
+        },
+        {
+          "file": "cargo-zeno-0.3.3-LICENSE-MIT.txt",
+          "sha256": "34dff8202d63e6df022f4f0ce88dab24f254c35ee0d5958b74dcf74d9eae21cc"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zerocopy",
+      "version": "0.8.63",
+      "license": "BSD-2-Clause OR Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-zerocopy-0.8.63-LICENSE-APACHE.txt",
+          "sha256": "9d185ac6703c4b0453974c0d85e9eee43e6941009296bb1f5eb0b54e2329e9f3"
+        },
+        {
+          "file": "cargo-zerocopy-0.8.63-LICENSE-BSD.txt",
+          "sha256": "83c1763356e822adde0a2cae748d938a73fdc263849ccff6b27776dff213bd32"
+        },
+        {
+          "file": "cargo-zerocopy-0.8.63-LICENSE-MIT.txt",
+          "sha256": "1a2f5c12ddc934d58956aa5dbdd3255fe55fd957633ab7d0d39e4f0daa73f7df"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zerocopy-derive",
+      "version": "0.8.63",
+      "license": "BSD-2-Clause OR Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-zerocopy-derive-0.8.63-LICENSE-APACHE.txt",
+          "sha256": "9d185ac6703c4b0453974c0d85e9eee43e6941009296bb1f5eb0b54e2329e9f3"
+        },
+        {
+          "file": "cargo-zerocopy-derive-0.8.63-LICENSE-BSD.txt",
+          "sha256": "83c1763356e822adde0a2cae748d938a73fdc263849ccff6b27776dff213bd32"
+        },
+        {
+          "file": "cargo-zerocopy-derive-0.8.63-LICENSE-MIT.txt",
+          "sha256": "1a2f5c12ddc934d58956aa5dbdd3255fe55fd957633ab7d0d39e4f0daa73f7df"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zerofrom",
+      "version": "0.1.8",
+      "license": "Unicode-3.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-zerofrom-0.1.8-LICENSE.txt",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zerofrom-derive",
+      "version": "0.1.8",
+      "license": "Unicode-3.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-zerofrom-derive-0.1.8-LICENSE.txt",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zeroize",
+      "version": "1.9.1",
+      "license": "Apache-2.0 OR MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-zeroize-1.9.1-LICENSE-APACHE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "file": "cargo-zeroize-1.9.1-LICENSE-MIT.txt",
+          "sha256": "8c7516d4b27b1e495be5e38b612298b63de48d05f49cdac94f70f3cd70f8864b"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zerotrie",
+      "version": "0.2.5",
+      "license": "Unicode-3.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-zerotrie-0.2.5-LICENSE.txt",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zerovec",
+      "version": "0.11.9",
+      "license": "Unicode-3.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-zerovec-0.11.9-LICENSE.txt",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zerovec-derive",
+      "version": "0.11.7",
+      "license": "Unicode-3.0",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-zerovec-derive-0.11.7-LICENSE.txt",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zlib-rs",
+      "version": "0.6.8",
+      "license": "Zlib",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-zlib-rs-0.6.8-LICENSE.txt",
+          "sha256": "e72111c52b7d96ebe25348dee19f0744f444d3c95ae6b1ecb6ccaecc5bce05ba"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zmij",
+      "version": "1.0.23",
+      "license": "MIT",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-zmij-1.0.23-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zune-core",
+      "version": "0.5.3",
+      "license": "MIT OR Apache-2.0 OR Zlib",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-zune-core-0.5.3-LICENSE-APACHE.txt",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "file": "cargo-zune-core-0.5.3-LICENSE-MIT.txt",
+          "sha256": "d30047bca3b516639339a3c279bb84c3483124fb5a9dafe3c75056a85090e745"
+        },
+        {
+          "file": "cargo-zune-core-0.5.3-LICENSE-ZLIB.txt",
+          "sha256": "d201d14804d3bcd3b944147173175e4abfbd838b7c8069b6bd3452496bf13e6c"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zune-jpeg",
+      "version": "0.5.15",
+      "license": "MIT OR Apache-2.0 OR Zlib",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "notices": [
+        {
+          "file": "cargo-zune-jpeg-0.5.15-LICENSE-APACHE.txt",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "file": "cargo-zune-jpeg-0.5.15-LICENSE-MIT.txt",
+          "sha256": "d30047bca3b516639339a3c279bb84c3483124fb5a9dafe3c75056a85090e745"
+        },
+        {
+          "file": "cargo-zune-jpeg-0.5.15-LICENSE-ZLIB.txt",
+          "sha256": "d201d14804d3bcd3b944147173175e4abfbd838b7c8069b6bd3452496bf13e6c"
+        }
+      ],
+      "scope": "Windows GNU workspace dependency; may include build/test dependencies",
+      "status": "notice-archived"
+    }
+  ],
+  "complete_licensing_review": false
+}

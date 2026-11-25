@@ -1,0 +1,10 @@
+// SPDX-License-Identifier: Apache-2.0
+#[cfg(feature = "desktop")]
+pub mod desktop;
+pub mod installer;
+pub mod installer_payload;
+pub mod lifecycle;
+#[cfg(target_os = "macos")]
+pub mod mac_maintenance;
+#[cfg(feature = "desktop")]
+pub mod shell;

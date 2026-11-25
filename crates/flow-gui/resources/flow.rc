@@ -1,0 +1,32 @@
+#pragma code_page(65001)
+LANGUAGE 0x04, 0x02
+
+1 ICON "flow.ico"
+1 24 "flow.manifest"
+
+1 VERSIONINFO
+ FILEVERSION @VERSION_NUMBERS@
+ PRODUCTVERSION @VERSION_NUMBERS@
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080404B0"
+    BEGIN
+      VALUE "ProductName", "流光\0"
+      VALUE "FileDescription", "流光视频下载器\0"
+      VALUE "FileVersion", "@VERSION@\0"
+      VALUE "ProductVersion", "@VERSION@\0"
+      VALUE "InternalName", "flow-desktop\0"
+      VALUE "OriginalFilename", "flow-desktop.exe\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0804, 1200
+  END
+END

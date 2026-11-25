@@ -1,0 +1,201 @@
+name: Native Windows GNU package check
+
+# The published desktop source tree is the repository root for this workflow.
+# Manual only: no release, tag, signing, GUI launch or installer execution.
+# This runner configuration has not been executed during local development.
+on:
+  workflow_dispatch:
+    inputs:
+      engine_artifact_run_id:
+        description: 'Optional same-repository run with liuguang-native-locked-archives; blank uses pinned upstream URLs'
+        required: false
+        type: string
+      upload_artifacts:
+        description: 'Retain unsigned installer, checksums, toolchain record and verified dependency archives (no source upload)'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: native-release-check-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  windows-gnu:
+    runs-on: windows-2022
+    timeout-minutes: 120
+    defaults:
+      run:
+        shell: pwsh
+    env:
+      CARGO_HOME: ${{ github.workspace }}/.build/cargo
+      CARGO_TARGET_DIR: ${{ github.workspace }}/target
+      CARGO_BUILD_JOBS: '1'
+      CMAKE_BUILD_PARALLEL_LEVEL: '1'
+      CMAKE_GENERATOR: Ninja
+      RUSTUP_TOOLCHAIN: stable-x86_64-pc-windows-gnu
+      RUST_TEST_THREADS: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+      FLOW_LOCAL_DATA_DIR: ${{ github.workspace }}/test-artifacts/ci/local
+      FLOW_ROAMING_DATA_DIR: ${{ github.workspace }}/test-artifacts/ci/roaming
+      FLOW_DATA_DIR: ${{ github.workspace }}/test-artifacts/ci/roaming
+      FLOW_DOWNLOAD_DIR: ${{ github.workspace }}/test-artifacts/ci/videos
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Create project-local scratch directories
+        run: |
+          if (-not (Test-Path -LiteralPath Cargo.toml)) { throw 'Run this workflow from the native desktop repository root.' }
+          $temporary = Join-Path $env:GITHUB_WORKSPACE '.build/tmp'
+          New-Item -ItemType Directory -Force -Path $temporary,$env:CARGO_HOME,'test-artifacts/ci' | Out-Null
+          foreach ($name in @('TEMP','TMP','TMPDIR')) { "$name=$temporary" | Add-Content -LiteralPath $env:GITHUB_ENV -Encoding utf8 }
+      - name: Source and package boundary checks
+        run: |
+          python -B packaging/test_native_package.py
+          if ($LASTEXITCODE -ne 0) { throw 'Native package boundary tests failed' }
+          python -B packaging/test_native_source.py
+          if ($LASTEXITCODE -ne 0) { throw 'Native source boundary tests failed' }
+      - name: Restore explicitly selected native dependency archives
+        if: inputs.engine_artifact_run_id != ''
+        uses: actions/download-artifact@v8
+        with:
+          name: liuguang-native-locked-archives
+          run-id: ${{ inputs.engine_artifact_run_id }}
+          repository: ${{ github.repository }}
+          github-token: ${{ github.token }}
+          path: engine/sources
+      - name: Verify and restore exact archived dependencies
+        if: inputs.engine_artifact_run_id != ''
+        run: |
+          python -B scripts/prepare-native-engines.py --offline-dir engine/sources
+          if ($LASTEXITCODE -ne 0) { throw 'Archived native dependencies do not match the committed lock.' }
+      - name: Restore pinned native dependencies
+        if: inputs.engine_artifact_run_id == ''
+        run: |
+          python -B scripts/prepare-native-engines.py
+          if ($LASTEXITCODE -ne 0) {
+            throw 'Pinned native dependency restoration failed. Expired upstream URLs require exact archived bytes or a reviewed lock update; this workflow never substitutes latest binaries.'
+          }
+      - name: Prepare GNU build tools on the disposable runner only
+        id: msys2
+        uses: msys2/setup-msys2@v2
+        with:
+          # MINGW64 is intentional for the tested Rust GNU/MSVCRT target.
+          # UCRT64/MSVC are not claimed as verified alternatives.
+          msystem: MINGW64
+          update: true
+          install: >-
+            mingw-w64-x86_64-gcc
+            mingw-w64-x86_64-cmake
+            mingw-w64-x86_64-ninja
+            mingw-w64-x86_64-nasm
+            mingw-w64-x86_64-nsis
+      - name: Install the GNU host Rust toolchain on the runner
+        uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: stable-x86_64-pc-windows-gnu
+      - name: Select explicit GNU tools and record actual versions
+        env:
+          MSYS2_LOCATION: ${{ steps.msys2.outputs.msys2-location }}
+        run: |
+          $tools = Join-Path $env:MSYS2_LOCATION 'mingw64/bin'
+          foreach ($name in @('gcc.exe','g++.exe','cmake.exe','ninja.exe','nasm.exe','windres.exe','makensis.exe')) {
+            if (-not (Test-Path -LiteralPath (Join-Path $tools $name))) { throw "Missing GNU runner tool: $name" }
+          }
+          $tools | Add-Content -LiteralPath $env:GITHUB_PATH -Encoding utf8
+          "FLOW_BUILD_TOOLS=$tools" | Add-Content -LiteralPath $env:GITHUB_ENV -Encoding utf8
+          "FLOW_MAKENSIS=$(Join-Path $tools 'makensis.exe')" | Add-Content -LiteralPath $env:GITHUB_ENV -Encoding utf8
+          "FLOW_WINDRES=$(Join-Path $tools 'windres.exe')" | Add-Content -LiteralPath $env:GITHUB_ENV -Encoding utf8
+          "CARGO_TARGET_X86_64_PC_WINDOWS_GNU_LINKER=$(Join-Path $tools 'gcc.exe')" | Add-Content -LiteralPath $env:GITHUB_ENV -Encoding utf8
+          "CC_x86_64_pc_windows_gnu=$(Join-Path $tools 'gcc.exe')" | Add-Content -LiteralPath $env:GITHUB_ENV -Encoding utf8
+          "CXX_x86_64_pc_windows_gnu=$(Join-Path $tools 'g++.exe')" | Add-Content -LiteralPath $env:GITHUB_ENV -Encoding utf8
+          $rust = rustc -vV
+          if ($LASTEXITCODE -ne 0 -or -not ($rust -match '^host: x86_64-pc-windows-gnu$')) { throw 'Expected a Windows GNU host compiler.' }
+          $rust | Set-Content -LiteralPath test-artifacts/ci/toolchain.txt -Encoding utf8
+          cargo --version | Add-Content -LiteralPath test-artifacts/ci/toolchain.txt -Encoding utf8
+          python --version | Add-Content -LiteralPath test-artifacts/ci/toolchain.txt -Encoding utf8
+          & (Join-Path $tools 'gcc.exe') --version | Add-Content -LiteralPath test-artifacts/ci/toolchain.txt -Encoding utf8
+          & (Join-Path $tools 'cmake.exe') --version | Add-Content -LiteralPath test-artifacts/ci/toolchain.txt -Encoding utf8
+          & (Join-Path $tools 'windres.exe') --version | Add-Content -LiteralPath test-artifacts/ci/toolchain.txt -Encoding utf8
+          & (Join-Path $tools 'makensis.exe') /VERSION | Add-Content -LiteralPath test-artifacts/ci/toolchain.txt -Encoding utf8
+          "Commit: $env:GITHUB_SHA" | Add-Content -LiteralPath test-artifacts/ci/toolchain.txt -Encoding utf8
+      - name: Fetch only the locked GNU dependency graph
+        run: |
+          cargo fetch --locked --target x86_64-pc-windows-gnu
+          if ($LASTEXITCODE -ne 0) { throw 'Locked Cargo dependency fetch failed' }
+      - name: Build and audit the native payload with one Cargo job
+        run: |
+          ./scripts/build-native.ps1 -NoPackage -Offline -Jobs 1 -ToolDirectories @($env:FLOW_BUILD_TOOLS)
+          git diff --exit-code -- Cargo.lock packaging/native-engine-manifest.json packaging/notices
+          if ($LASTEXITCODE -ne 0) { throw 'Native notices or resource pins differ from committed review inputs.' }
+      - name: Small platform and recovery tests
+        run: |
+          cargo test --locked --offline --release --jobs 1 -p flow-platform --features desktop --lib -- --test-threads=1 --skip closing_cli_job_stops_its_engine_process --skip junction_target_survives_cleanup_and_linked_roots_are_rejected
+          if ($LASTEXITCODE -ne 0) { throw 'Platform tests failed' }
+      - name: Core selection and media metadata tests
+        run: |
+          foreach ($group in @('config::tests', 'media::tests')) {
+            cargo test --locked --offline --release --jobs 1 -p flow-core --lib $group -- --test-threads=1
+            if ($LASTEXITCODE -ne 0) { throw "Core tests failed: $group" }
+          }
+      - name: Event delivery and UI model tests without a GUI
+        run: |
+          cargo test --locked --offline --release --jobs 1 -p flow-app --lib -- --test-threads=1 --skip task_flood --skip large_first_preview_batch
+          if ($LASTEXITCODE -ne 0) { throw 'Event delivery tests failed' }
+          cargo test --locked --offline --release --jobs 1 -p flow-gui --bin flow-desktop model::tests -- --test-threads=1
+          if ($LASTEXITCODE -ne 0) { throw 'UI model tests failed' }
+      - name: Compile unsigned installer without executing it
+        run: |
+          python -B scripts/package-native.py --compile --makensis $env:FLOW_MAKENSIS
+          if ($LASTEXITCODE -ne 0) { throw 'Native NSIS compilation or PE dependency audit failed' }
+      - name: Retain unsigned installer and validation record only when requested
+        if: inputs.upload_artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          name: liuguang-native-windows-gnu-unsigned-${{ github.run_number }}
+          retention-days: 14
+          compression-level: 0
+          if-no-files-found: error
+          path: |
+            release/*-windows-x64-setup.exe
+            release/*-manifest.json
+            release/*-SHA256SUMS.txt
+            test-artifacts/ci/toolchain.txt
+      - name: Retain verified native acquisition archives only when requested
+        if: inputs.upload_artifacts
+        run: |
+          $destination = Join-Path $env:GITHUB_WORKSPACE 'test-artifacts/ci/locked-native-archives'
+          New-Item -ItemType Directory -Force -Path $destination | Out-Null
+          $lock = Get-Content -LiteralPath engine/downloads.lock.json -Raw | ConvertFrom-Json
+          foreach ($package in $lock.packages) {
+            if (@($package.outputs | Where-Object { $_.path -match '^webview2/' }).Count) { continue }
+            if ([IO.Path]::GetFileName($package.file) -cne $package.file) { throw 'Expected a flat locked archive filename.' }
+            $source = Join-Path 'engine/sources' $package.file
+            if ((Get-FileHash -LiteralPath $source -Algorithm SHA256).Hash -ne $package.sha256) { throw 'Archive changed after native restoration.' }
+            Copy-Item -LiteralPath $source -Destination (Join-Path $destination $package.file)
+          }
+      - name: Upload only the verified native acquisition archives
+        if: inputs.upload_artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          name: liuguang-native-locked-archives
+          retention-days: 14
+          compression-level: 0
+          if-no-files-found: error
+          path: test-artifacts/ci/locked-native-archives/
+      - name: Record validation limits
+        if: always()
+        run: |
+          @'
+          Native Windows GNU only. This workflow contains no Tauri/npm build, browser runtime, GUI launch, real install/upgrade/uninstall execution, stress test or long-running download.
+
+          A successful run verifies compilation, selected small tests, pinned resources, dependency notices and static PE imports. It does not establish GUI usability, installed Windows behavior, signing or completed license review. No release, tag or application source artifact is published. Artifact retention requires explicit upload_artifacts input and expires after 14 days.
+          '@ | Add-Content -LiteralPath $env:GITHUB_STEP_SUMMARY -Encoding utf8

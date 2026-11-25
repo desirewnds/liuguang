@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "recorded_on": "2026-11-17",
+  "minimum_macos": "13.5",
+  "minimum_macos_status": "Build floor for Node 24; every Mach-O slice must be audited before packaging. Not an OS compatibility test result.",
+  "provenance": {
+    "yt-dlp": "https://api.github.com/repos/yt-dlp/yt-dlp/releases/tags/2026.10.21",
+    "node": "https://nodejs.org/dist/v24.15.0/SHASUMS256.txt",
+    "ffmpeg": "Third-party Martin Riedl GPL builds, not FFmpeg-project binaries. Archive hashes are the publisher's fixed-build .zip.sha256 files.",
+    "ffmpeg_recipe": "https://git.martin-riedl.de/ffmpeg/build-script",
+    "complete_corresponding_source_verified": false
+  },
+  "common": [
+    {
+      "name": "yt-dlp",
+      "version": "2026.10.21",
+      "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2026.10.21/yt-dlp_macos",
+      "file": "yt-dlp-2026.10.21-macos",
+      "sha256": "7a6fe71d7d680f1fb0ac18d4949873d77db2859e90017c0f44bd94b23be4ee40",
+      "kind": "binary",
+      "outputs": [{"path": "yt-dlp"}]
+    }
+  ],
+  "targets": {
+    "aarch64-apple-darwin": {
+      "arch": "arm64",
+      "packages": [
+        {
+          "name": "node", "version": "24.15.0", "kind": "tar",
+          "url": "https://nodejs.org/dist/v24.15.0/node-v24.15.0-darwin-arm64.tar.gz",
+          "file": "node-v24.15.0-darwin-arm64.tar.gz",
+          "sha256": "372331b969779ab5d15b949884fc6eaf88d5afe87bde8ba881d6400b9100ffc4",
+          "outputs": [
+            {"path": "node", "member": "node-v24.15.0-darwin-arm64/bin/node"},
+            {"path": "licenses/node-LICENSE.txt", "member": "node-v24.15.0-darwin-arm64/LICENSE"}
+          ]
+        },
+        {
+          "name": "ffmpeg", "version": "9.0.2", "kind": "zip",
+          "url": "https://ffmpeg.martin-riedl.de/download/macos/arm64/1789931890_9.0.2/ffmpeg.zip",
+          "file": "riedl-arm64-1789931890-ffmpeg.zip",
+          "sha256": "c8ed4c4e6978a03c485edbfe4e0a5dc2380f8a30bba5150531b31b094492d924",
+          "outputs": [{"path": "ffmpeg", "member_basename": "ffmpeg"}],
+          "build_information": "https://ffmpeg.martin-riedl.de/download/macos/arm64/1789931890_9.0.2/versions.txt"
+        },
+        {
+          "name": "ffprobe", "version": "9.0.2", "kind": "zip",
+          "url": "https://ffmpeg.martin-riedl.de/download/macos/arm64/1789931890_9.0.2/ffprobe.zip",
+          "file": "riedl-arm64-1789931890-ffprobe.zip",
+          "sha256": "fcbe839537485eaee7a7a8bc5cbc0f90d53617e80943e8a5b2e31cb851197ea6",
+          "outputs": [{"path": "ffprobe", "member_basename": "ffprobe"}]
+        }
+      ]
+    },
+    "x86_64-apple-darwin": {
+      "arch": "x86_64",
+      "packages": [
+        {
+          "name": "node", "version": "24.15.0", "kind": "tar",
+          "url": "https://nodejs.org/dist/v24.15.0/node-v24.15.0-darwin-x64.tar.gz",
+          "file": "node-v24.15.0-darwin-x64.tar.gz",
+          "sha256": "ffd5ee293467927f3ee731a553eb88fd1f48cf74eebc2d74a6babe4af228673b",
+          "outputs": [
+            {"path": "node", "member": "node-v24.15.0-darwin-x64/bin/node"},
+            {"path": "licenses/node-LICENSE.txt", "member": "node-v24.15.0-darwin-x64/LICENSE"}
+          ]
+        },
+        {
+          "name": "ffmpeg", "version": "9.0.2", "kind": "zip",
+          "url": "https://ffmpeg.martin-riedl.de/download/macos/amd64/1789931006_9.0.2/ffmpeg.zip",
+          "file": "riedl-x86_64-1789931006-ffmpeg.zip",
+          "sha256": "7c6b4125b191cbf773832dc51f424cf2b6bb7da43007d1e066f95909e47cacd4",
+          "outputs": [{"path": "ffmpeg", "member_basename": "ffmpeg"}],
+          "build_information": "https://ffmpeg.martin-riedl.de/download/macos/amd64/1789931006_9.0.2/versions.txt"
+        },
+        {
+          "name": "ffprobe", "version": "9.0.2", "kind": "zip",
+          "url": "https://ffmpeg.martin-riedl.de/download/macos/amd64/1789931006_9.0.2/ffprobe.zip",
+          "file": "riedl-x86_64-1789931006-ffprobe.zip",
+          "sha256": "2322438ed2f6319a691291b247d09c69dcaa3a982460d1f269a7e1af335cfdfd",
+          "outputs": [{"path": "ffprobe", "member_basename": "ffprobe"}]
+        }
+      ]
+    }
+  }
+}

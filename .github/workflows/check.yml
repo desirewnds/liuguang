@@ -1,0 +1,43 @@
+name: Native source checks
+
+# Intentionally manual while the desktop rewrite is being reviewed.
+# No old Tauri pipeline, compiler installation, dependency archives or GUI launch.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: native-source-check-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  source:
+    runs-on: windows-2022
+    timeout-minutes: 10
+    defaults:
+      run:
+        shell: pwsh
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Check package ownership and source selection using small fixtures
+        run: |
+          python -B packaging/test_native_package.py
+          if ($LASTEXITCODE -ne 0) { throw 'Native package boundary tests failed' }
+          python -B packaging/test_native_source.py
+          if ($LASTEXITCODE -ne 0) { throw 'Native source boundary tests failed' }
+      - name: Inspect native dependency selection without downloading
+        run: |
+          python -B scripts/prepare-native-engines.py --list
+          if ($LASTEXITCODE -ne 0) { throw 'Native dependency selection failed' }
+      - name: Record scope
+        run: |
+          'Small Python boundary tests only. No Rust compilation, native GUI, installer, engine download, stress test or artifact publication is performed.' | Add-Content -LiteralPath $env:GITHUB_STEP_SUMMARY -Encoding utf8

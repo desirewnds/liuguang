@@ -1,0 +1,724 @@
+{
+  "schema": 1,
+  "records": [
+    {
+      "repo": "iced-rs/iced",
+      "ref": "3997291f318a8bc06fa522f5579836fb3feb94df",
+      "path": "LICENSE",
+      "packages": [
+        "iced_core@0.14.0",
+        "iced_debug@0.14.0",
+        "iced_futures@0.14.0",
+        "iced_graphics@0.14.0",
+        "iced_program@0.14.0",
+        "iced_renderer@0.14.0",
+        "iced_runtime@0.14.0",
+        "iced_wgpu@0.14.0"
+      ],
+      "git_blob": "f1148e26eac8202a1c2a170b41aa766d7dbb0c8d",
+      "source": "https://github.com/iced-rs/iced/blob/3997291f318a8bc06fa522f5579836fb3feb94df/LICENSE",
+      "file": "iced-rs-iced-3997291f318a-LICENSE.txt"
+    },
+    {
+      "repo": "iced-rs/iced",
+      "ref": "0ecf60664df7b8ac7d7aef5f7279d5323027f693",
+      "path": "LICENSE",
+      "packages": [
+        "iced_tiny_skia@0.14.1"
+      ],
+      "git_blob": "f1148e26eac8202a1c2a170b41aa766d7dbb0c8d",
+      "source": "https://github.com/iced-rs/iced/blob/0ecf60664df7b8ac7d7aef5f7279d5323027f693/LICENSE",
+      "file": "iced-rs-iced-0ecf60664df7-LICENSE.txt"
+    },
+    {
+      "repo": "iced-rs/iced",
+      "ref": "54abf81d13fec06d4d9ac754b03ce2c3313e8a1f",
+      "path": "LICENSE",
+      "packages": [
+        "iced_widget@0.14.2"
+      ],
+      "git_blob": "f1148e26eac8202a1c2a170b41aa766d7dbb0c8d",
+      "source": "https://github.com/iced-rs/iced/blob/54abf81d13fec06d4d9ac754b03ce2c3313e8a1f/LICENSE",
+      "file": "iced-rs-iced-54abf81d13fe-LICENSE.txt"
+    },
+    {
+      "repo": "iced-rs/iced",
+      "ref": "38237dd294da3256c2ac4d3f8288fc73956c91e0",
+      "path": "LICENSE",
+      "packages": [
+        "iced_winit@0.14.1"
+      ],
+      "git_blob": "f1148e26eac8202a1c2a170b41aa766d7dbb0c8d",
+      "source": "https://github.com/iced-rs/iced/blob/38237dd294da3256c2ac4d3f8288fc73956c91e0/LICENSE",
+      "file": "iced-rs-iced-38237dd294da-LICENSE.txt"
+    },
+    {
+      "repo": "DoumanAsh/clipboard-win",
+      "ref": "ed27008ae5d1f10cfbb266de039f0fb35fd05a56",
+      "path": "LICENSE",
+      "packages": [
+        "clipboard-win@5.4.3"
+      ],
+      "git_blob": "36b7cd93cdfbac762f5be4c6ce276df2ea6305c2",
+      "source": "https://github.com/DoumanAsh/clipboard-win/blob/ed27008ae5d1f10cfbb266de039f0fb35fd05a56/LICENSE",
+      "file": "DoumanAsh-clipboard-win-ed27008ae5d1-LICENSE.txt"
+    },
+    {
+      "repo": "nical/rust_debug",
+      "ref": "93f414cd572b5c2781df93dbdc068ed13443d05a",
+      "path": "LICENSE",
+      "packages": [
+        "svg_fmt@0.4.5"
+      ],
+      "git_blob": "9ad7b40bcf7bb89a9866e5e2e8fdb370fb528e36",
+      "source": "https://github.com/nical/rust_debug/blob/93f414cd572b5c2781df93dbdc068ed13443d05a/LICENSE",
+      "file": "nical-rust_debug-93f414cd572b-LICENSE.txt"
+    },
+    {
+      "repo": "gfx-rs/rspirv",
+      "ref": "e91a5debc10c395b36db7721dfff6326d697a1e2",
+      "path": "LICENSE",
+      "packages": [
+        "spirv@0.3.0+sdk-1.3.268.0"
+      ],
+      "git_blob": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "source": "https://github.com/gfx-rs/rspirv/blob/e91a5debc10c395b36db7721dfff6326d697a1e2/LICENSE",
+      "file": "gfx-rs-rspirv-e91a5debc10c-LICENSE.txt"
+    },
+    {
+      "repo": "aclysma/profiling",
+      "ref": "8271551172eb6fa4cba47369aedd93790c623df9",
+      "path": "LICENSE-MIT",
+      "packages": [
+        "profiling@1.0.18"
+      ],
+      "git_blob": "6a84e059ad8b43e03c2b06bc2af4dc1d8442808d",
+      "source": "https://github.com/aclysma/profiling/blob/8271551172eb6fa4cba47369aedd93790c623df9/LICENSE-MIT",
+      "file": "aclysma-profiling-8271551172eb-LICENSE-MIT.txt"
+    },
+    {
+      "repo": "aclysma/profiling",
+      "ref": "8271551172eb6fa4cba47369aedd93790c623df9",
+      "path": "LICENSE-APACHE",
+      "packages": [
+        "profiling@1.0.18"
+      ],
+      "git_blob": "139dce95d473c201a8561ef17536314d8b8cda65",
+      "source": "https://github.com/aclysma/profiling/blob/8271551172eb6fa4cba47369aedd93790c623df9/LICENSE-APACHE",
+      "file": "aclysma-profiling-8271551172eb-LICENSE-APACHE.txt"
+    },
+    {
+      "repo": "zakarumych/gpu-alloc",
+      "ref": "61020bdcb4eb04fca6bbf748aeb9570e859236e0",
+      "path": "COPYING",
+      "packages": [
+        "gpu-alloc@0.6.2"
+      ],
+      "git_blob": "1787983c037783b8855a688f5d9c0b6a2ec30b40",
+      "source": "https://github.com/zakarumych/gpu-alloc/blob/61020bdcb4eb04fca6bbf748aeb9570e859236e0/COPYING",
+      "file": "zakarumych-gpu-alloc-61020bdcb4eb-COPYING.txt"
+    },
+    {
+      "repo": "zakarumych/gpu-alloc",
+      "ref": "61020bdcb4eb04fca6bbf748aeb9570e859236e0",
+      "path": "license/MIT",
+      "packages": [
+        "gpu-alloc@0.6.2"
+      ],
+      "git_blob": "3746e3bb20fc30b6f07688c561b87ee1eb7a439d",
+      "source": "https://github.com/zakarumych/gpu-alloc/blob/61020bdcb4eb04fca6bbf748aeb9570e859236e0/license/MIT",
+      "file": "zakarumych-gpu-alloc-61020bdcb4eb-license-MIT.txt"
+    },
+    {
+      "repo": "zakarumych/gpu-alloc",
+      "ref": "61020bdcb4eb04fca6bbf748aeb9570e859236e0",
+      "path": "license/APACHE",
+      "packages": [
+        "gpu-alloc@0.6.2"
+      ],
+      "git_blob": "690245e2787c89e4332ff4c674112bea22dc41e3",
+      "source": "https://github.com/zakarumych/gpu-alloc/blob/61020bdcb4eb04fca6bbf748aeb9570e859236e0/license/APACHE",
+      "file": "zakarumych-gpu-alloc-61020bdcb4eb-license-APACHE.txt"
+    },
+    {
+      "repo": "zakarumych/gpu-alloc",
+      "ref": "7ddd1fe576fcfc503347eb97e476a47581479f22",
+      "path": "COPYING",
+      "packages": [
+        "gpu-alloc-types@0.3.1"
+      ],
+      "git_blob": "1787983c037783b8855a688f5d9c0b6a2ec30b40",
+      "source": "https://github.com/zakarumych/gpu-alloc/blob/7ddd1fe576fcfc503347eb97e476a47581479f22/COPYING",
+      "file": "zakarumych-gpu-alloc-7ddd1fe576fc-COPYING.txt"
+    },
+    {
+      "repo": "zakarumych/gpu-alloc",
+      "ref": "7ddd1fe576fcfc503347eb97e476a47581479f22",
+      "path": "license/MIT",
+      "packages": [
+        "gpu-alloc-types@0.3.1"
+      ],
+      "git_blob": "3746e3bb20fc30b6f07688c561b87ee1eb7a439d",
+      "source": "https://github.com/zakarumych/gpu-alloc/blob/7ddd1fe576fcfc503347eb97e476a47581479f22/license/MIT",
+      "file": "zakarumych-gpu-alloc-7ddd1fe576fc-license-MIT.txt"
+    },
+    {
+      "repo": "zakarumych/gpu-alloc",
+      "ref": "7ddd1fe576fcfc503347eb97e476a47581479f22",
+      "path": "license/APACHE",
+      "packages": [
+        "gpu-alloc-types@0.3.1"
+      ],
+      "git_blob": "690245e2787c89e4332ff4c674112bea22dc41e3",
+      "source": "https://github.com/zakarumych/gpu-alloc/blob/7ddd1fe576fcfc503347eb97e476a47581479f22/license/APACHE",
+      "file": "zakarumych-gpu-alloc-7ddd1fe576fc-license-APACHE.txt"
+    },
+    {
+      "repo": "zakarumych/gpu-descriptor",
+      "ref": "bb28b4e55b742e0ea3e7a0968e7ee6287ba0e06a",
+      "path": "COPYING",
+      "packages": [
+        "gpu-descriptor@0.3.2"
+      ],
+      "git_blob": "9eca5fed017db6917cc476f67dcff36b0364bd48",
+      "source": "https://github.com/zakarumych/gpu-descriptor/blob/bb28b4e55b742e0ea3e7a0968e7ee6287ba0e06a/COPYING",
+      "file": "zakarumych-gpu-descriptor-bb28b4e55b74-COPYING.txt"
+    },
+    {
+      "repo": "zakarumych/gpu-descriptor",
+      "ref": "bb28b4e55b742e0ea3e7a0968e7ee6287ba0e06a",
+      "path": "license/MIT",
+      "packages": [
+        "gpu-descriptor@0.3.2"
+      ],
+      "git_blob": "6fb305333b5577c09ea210cdf2e1fcf6793e9b01",
+      "source": "https://github.com/zakarumych/gpu-descriptor/blob/bb28b4e55b742e0ea3e7a0968e7ee6287ba0e06a/license/MIT",
+      "file": "zakarumych-gpu-descriptor-bb28b4e55b74-license-MIT.txt"
+    },
+    {
+      "repo": "zakarumych/gpu-descriptor",
+      "ref": "bb28b4e55b742e0ea3e7a0968e7ee6287ba0e06a",
+      "path": "license/APACHE",
+      "packages": [
+        "gpu-descriptor@0.3.2"
+      ],
+      "git_blob": "cfaf4615fc4eafe17df4df25b135ae82a73f142d",
+      "source": "https://github.com/zakarumych/gpu-descriptor/blob/bb28b4e55b742e0ea3e7a0968e7ee6287ba0e06a/license/APACHE",
+      "file": "zakarumych-gpu-descriptor-bb28b4e55b74-license-APACHE.txt"
+    },
+    {
+      "repo": "zakarumych/gpu-descriptor",
+      "ref": "9f2fb9546591322e7b77ee1e79385e01effd85e4",
+      "path": "COPYING",
+      "packages": [
+        "gpu-descriptor-types@0.2.0"
+      ],
+      "git_blob": "9eca5fed017db6917cc476f67dcff36b0364bd48",
+      "source": "https://github.com/zakarumych/gpu-descriptor/blob/9f2fb9546591322e7b77ee1e79385e01effd85e4/COPYING",
+      "file": "zakarumych-gpu-descriptor-9f2fb9546591-COPYING.txt"
+    },
+    {
+      "repo": "zakarumych/gpu-descriptor",
+      "ref": "9f2fb9546591322e7b77ee1e79385e01effd85e4",
+      "path": "license/MIT",
+      "packages": [
+        "gpu-descriptor-types@0.2.0"
+      ],
+      "git_blob": "6fb305333b5577c09ea210cdf2e1fcf6793e9b01",
+      "source": "https://github.com/zakarumych/gpu-descriptor/blob/9f2fb9546591322e7b77ee1e79385e01effd85e4/license/MIT",
+      "file": "zakarumych-gpu-descriptor-9f2fb9546591-license-MIT.txt"
+    },
+    {
+      "repo": "zakarumych/gpu-descriptor",
+      "ref": "9f2fb9546591322e7b77ee1e79385e01effd85e4",
+      "path": "license/APACHE",
+      "packages": [
+        "gpu-descriptor-types@0.2.0"
+      ],
+      "git_blob": "cfaf4615fc4eafe17df4df25b135ae82a73f142d",
+      "source": "https://github.com/zakarumych/gpu-descriptor/blob/9f2fb9546591322e7b77ee1e79385e01effd85e4/license/APACHE",
+      "file": "zakarumych-gpu-descriptor-9f2fb9546591-license-APACHE.txt"
+    },
+    {
+      "repo": "rust-windowing/gl-rs",
+      "ref": "ea503e8d5fb6d73c6030e6191ce738cd3bf3433e",
+      "path": "LICENSE",
+      "packages": [
+        "gl_generator@0.14.0"
+      ],
+      "git_blob": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "source": "https://github.com/rust-windowing/gl-rs/blob/ea503e8d5fb6d73c6030e6191ce738cd3bf3433e/LICENSE",
+      "file": "rust-windowing-gl-rs-ea503e8d5fb6-LICENSE.txt"
+    },
+    {
+      "repo": "rust-windowing/gl-rs",
+      "ref": "f150967b1c44ae888e6676f93f639ebc82771bdc",
+      "path": "LICENSE",
+      "packages": [
+        "khronos_api@3.1.0"
+      ],
+      "git_blob": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "source": "https://github.com/rust-windowing/gl-rs/blob/f150967b1c44ae888e6676f93f639ebc82771bdc/LICENSE",
+      "file": "rust-windowing-gl-rs-f150967b1c44-LICENSE.txt"
+    },
+    {
+      "repo": "spdx/license-list-data",
+      "path": "text/CC0-1.0.txt",
+      "packages": [
+        "hexf-parse@0.2.1"
+      ],
+      "file": "spdx-CC0-1.0.txt",
+      "git_blob": "0e259d42c996742e9e3cba14c677129b2c1b6311",
+      "source": "https://github.com/spdx/license-list-data/blob/main/text/CC0-1.0.txt",
+      "license_reference": true,
+      "declaration_source": "https://github.com/lifthrasiir/hexf/blob/4225763d744183d720f575ae96d04161b4d08ea0/parse/Cargo.toml"
+    },
+    {
+      "repo": "madsmtm/objc2",
+      "ref": "4fc083f1c6d6784577e38b0ee8dbd344481e2fd2",
+      "path": "LICENSE.txt",
+      "packages": [
+        "block2@0.5.1",
+        "objc-sys@0.3.5"
+      ],
+      "git_blob": "e9ab3babc0d8602b83dccde8a462f8f3dc1e52ad",
+      "source": "https://github.com/madsmtm/objc2/blob/4fc083f1c6d6784577e38b0ee8dbd344481e2fd2/LICENSE.txt",
+      "file": "madsmtm-objc2-MIT-e9ab3babc0d8.txt",
+      "notice_kind": "license-text",
+      "license_choice": "MIT"
+    },
+    {
+      "repo": "madsmtm/objc2",
+      "ref": "5237cbf081d04ef75a1f6a207b4018e7c1ae7438",
+      "path": "LICENSE.txt",
+      "packages": [
+        "objc2@0.5.3"
+      ],
+      "git_blob": "e9ab3babc0d8602b83dccde8a462f8f3dc1e52ad",
+      "source": "https://github.com/madsmtm/objc2/blob/5237cbf081d04ef75a1f6a207b4018e7c1ae7438/LICENSE.txt",
+      "file": "madsmtm-objc2-MIT-e9ab3babc0d8.txt",
+      "notice_kind": "license-text",
+      "license_choice": "MIT"
+    },
+    {
+      "repo": "madsmtm/objc2",
+      "ref": "e282618be4c3a3b9542957e0c8540e9588472ce8",
+      "path": "LICENSE.txt",
+      "packages": [
+        "objc2-app-kit@0.2.2",
+        "objc2-core-data@0.2.2",
+        "objc2-core-image@0.2.2",
+        "objc2-foundation@0.2.2",
+        "objc2-metal@0.2.2",
+        "objc2-quartz-core@0.2.2"
+      ],
+      "git_blob": "e9ab3babc0d8602b83dccde8a462f8f3dc1e52ad",
+      "source": "https://github.com/madsmtm/objc2/blob/e282618be4c3a3b9542957e0c8540e9588472ce8/LICENSE.txt",
+      "file": "madsmtm-objc2-MIT-e9ab3babc0d8.txt",
+      "notice_kind": "license-text",
+      "license_choice": "MIT"
+    },
+    {
+      "repo": "madsmtm/objc2",
+      "ref": "b4167b582b2f75f9a1be75495c41b765344fd03c",
+      "path": "LICENSE.md",
+      "packages": [
+        "block2@0.6.2"
+      ],
+      "git_blob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+      "source": "https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+      "file": "madsmtm-objc2-LICENSE-540ae4c81adb.md",
+      "notice_kind": "license-declaration",
+      "license_choice": "MIT",
+      "notice_limitation": "The exact upstream revision contains a license declaration but no standalone MIT license/copyright text. The unmodified SPDX MIT text is a normative reference; its <year> and <copyright holders> markers are not package-specific attribution. Historical upstream attribution is retained separately. This material does not establish a completed licensing review. The upstream declaration includes its own Apple SDK derived-work licensing discussion; it is preserved in full. This material does not establish a completed licensing review.",
+      "complete_licensing_review": false
+    },
+    {
+      "repo": "spdx/license-list-data",
+      "ref": "279b7e997a87c09be00dd6bdda189519ade502cf",
+      "path": "text/MIT.txt",
+      "packages": [
+        "block2@0.6.2"
+      ],
+      "git_blob": "d817195dad53ec992418c28ffca5fbd1cd86502a",
+      "source": "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/MIT.txt",
+      "file": "spdx-license-list-data-279b7e997a87-MIT.txt",
+      "notice_kind": "normative-license-text",
+      "license_choice": "MIT",
+      "license_reference": true,
+      "declaration_source": "https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+      "notice_limitation": "The exact upstream revision contains a license declaration but no standalone MIT license/copyright text. The unmodified SPDX MIT text is a normative reference; its <year> and <copyright holders> markers are not package-specific attribution. Historical upstream attribution is retained separately. This material does not establish a completed licensing review.",
+      "complete_licensing_review": false
+    },
+    {
+      "repo": "madsmtm/objc2",
+      "ref": "d7d2fa23ceaa5e6096c923b081040e5d81b3b9df",
+      "path": "LICENSE.md",
+      "packages": [
+        "objc2@0.6.5"
+      ],
+      "git_blob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+      "source": "https://github.com/madsmtm/objc2/blob/d7d2fa23ceaa5e6096c923b081040e5d81b3b9df/LICENSE.md",
+      "file": "madsmtm-objc2-LICENSE-540ae4c81adb.md",
+      "notice_kind": "license-declaration",
+      "license_choice": "MIT",
+      "notice_limitation": "The exact upstream revision contains a license declaration but no standalone MIT license/copyright text. The unmodified SPDX MIT text is a normative reference; its <year> and <copyright holders> markers are not package-specific attribution. Historical upstream attribution is retained separately. This material does not establish a completed licensing review. The upstream declaration includes its own Apple SDK derived-work licensing discussion; it is preserved in full. This material does not establish a completed licensing review.",
+      "complete_licensing_review": false
+    },
+    {
+      "repo": "spdx/license-list-data",
+      "ref": "279b7e997a87c09be00dd6bdda189519ade502cf",
+      "path": "text/MIT.txt",
+      "packages": [
+        "objc2@0.6.5"
+      ],
+      "git_blob": "d817195dad53ec992418c28ffca5fbd1cd86502a",
+      "source": "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/MIT.txt",
+      "file": "spdx-license-list-data-279b7e997a87-MIT.txt",
+      "notice_kind": "normative-license-text",
+      "license_choice": "MIT",
+      "license_reference": true,
+      "declaration_source": "https://github.com/madsmtm/objc2/blob/d7d2fa23ceaa5e6096c923b081040e5d81b3b9df/LICENSE.md",
+      "notice_limitation": "The exact upstream revision contains a license declaration but no standalone MIT license/copyright text. The unmodified SPDX MIT text is a normative reference; its <year> and <copyright holders> markers are not package-specific attribution. Historical upstream attribution is retained separately. This material does not establish a completed licensing review.",
+      "complete_licensing_review": false
+    },
+    {
+      "repo": "madsmtm/objc2",
+      "ref": "8d214f5477365ffcbcbb7de058c86ed9a518efb7",
+      "path": "LICENSE.md",
+      "packages": [
+        "objc2-encode@4.1.0"
+      ],
+      "git_blob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+      "source": "https://github.com/madsmtm/objc2/blob/8d214f5477365ffcbcbb7de058c86ed9a518efb7/LICENSE.md",
+      "file": "madsmtm-objc2-LICENSE-540ae4c81adb.md",
+      "notice_kind": "license-declaration",
+      "license_choice": "MIT",
+      "notice_limitation": "The exact upstream revision contains a license declaration but no standalone MIT license/copyright text. The unmodified SPDX MIT text is a normative reference; its <year> and <copyright holders> markers are not package-specific attribution. Historical upstream attribution is retained separately. This material does not establish a completed licensing review. The upstream declaration includes its own Apple SDK derived-work licensing discussion; it is preserved in full. This material does not establish a completed licensing review.",
+      "complete_licensing_review": false
+    },
+    {
+      "repo": "spdx/license-list-data",
+      "ref": "279b7e997a87c09be00dd6bdda189519ade502cf",
+      "path": "text/MIT.txt",
+      "packages": [
+        "objc2-encode@4.1.0"
+      ],
+      "git_blob": "d817195dad53ec992418c28ffca5fbd1cd86502a",
+      "source": "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/MIT.txt",
+      "file": "spdx-license-list-data-279b7e997a87-MIT.txt",
+      "notice_kind": "normative-license-text",
+      "license_choice": "MIT",
+      "license_reference": true,
+      "declaration_source": "https://github.com/madsmtm/objc2/blob/8d214f5477365ffcbcbb7de058c86ed9a518efb7/LICENSE.md",
+      "notice_limitation": "The exact upstream revision contains a license declaration but no standalone MIT license/copyright text. The unmodified SPDX MIT text is a normative reference; its <year> and <copyright holders> markers are not package-specific attribution. Historical upstream attribution is retained separately. This material does not establish a completed licensing review.",
+      "complete_licensing_review": false
+    },
+    {
+      "repo": "madsmtm/objc2",
+      "ref": "8852b424193ca41602281b3d7540d7c8ed51e49a",
+      "path": "LICENSE.md",
+      "packages": [
+        "dispatch2@0.3.1"
+      ],
+      "git_blob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+      "source": "https://github.com/madsmtm/objc2/blob/8852b424193ca41602281b3d7540d7c8ed51e49a/LICENSE.md",
+      "file": "madsmtm-objc2-LICENSE-540ae4c81adb.md",
+      "notice_kind": "license-declaration",
+      "license_choice": "Apache-2.0",
+      "notice_limitation": "The upstream declaration includes its own Apple SDK derived-work licensing discussion; it is preserved in full. This material does not establish a completed licensing review.",
+      "complete_licensing_review": false
+    },
+    {
+      "repo": "apache/www-site",
+      "ref": "01b1be9fbc5cd93b6794f5653a58b9b863807f84",
+      "path": "content/licenses/LICENSE-2.0.txt",
+      "packages": [
+        "dispatch2@0.3.1"
+      ],
+      "git_blob": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "source": "https://github.com/apache/www-site/blob/01b1be9fbc5cd93b6794f5653a58b9b863807f84/content/licenses/LICENSE-2.0.txt",
+      "file": "apache-www-site-01b1be9fbc5c-LICENSE-2.0.txt",
+      "notice_kind": "normative-license-text",
+      "license_choice": "Apache-2.0",
+      "license_reference": true,
+      "declaration_source": "https://github.com/madsmtm/objc2/blob/8852b424193ca41602281b3d7540d7c8ed51e49a/LICENSE.md",
+      "notice_limitation": "The upstream declaration includes its own Apple SDK derived-work licensing discussion; it is preserved in full. This material does not establish a completed licensing review.",
+      "complete_licensing_review": false
+    },
+    {
+      "repo": "madsmtm/objc2",
+      "ref": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "path": "LICENSE.md",
+      "packages": [
+        "objc2-foundation@0.3.2"
+      ],
+      "git_blob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+      "source": "https://github.com/madsmtm/objc2/blob/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+      "file": "madsmtm-objc2-LICENSE-540ae4c81adb.md",
+      "notice_kind": "license-declaration",
+      "license_choice": "MIT",
+      "notice_limitation": "The exact upstream revision contains a license declaration but no standalone MIT license/copyright text. The unmodified SPDX MIT text is a normative reference; its <year> and <copyright holders> markers are not package-specific attribution. Historical upstream attribution is retained separately. This material does not establish a completed licensing review. The upstream declaration includes its own Apple SDK derived-work licensing discussion; it is preserved in full. This material does not establish a completed licensing review.",
+      "complete_licensing_review": false
+    },
+    {
+      "repo": "spdx/license-list-data",
+      "ref": "279b7e997a87c09be00dd6bdda189519ade502cf",
+      "path": "text/MIT.txt",
+      "packages": [
+        "objc2-foundation@0.3.2"
+      ],
+      "git_blob": "d817195dad53ec992418c28ffca5fbd1cd86502a",
+      "source": "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/MIT.txt",
+      "file": "spdx-license-list-data-279b7e997a87-MIT.txt",
+      "notice_kind": "normative-license-text",
+      "license_choice": "MIT",
+      "license_reference": true,
+      "declaration_source": "https://github.com/madsmtm/objc2/blob/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+      "notice_limitation": "The exact upstream revision contains a license declaration but no standalone MIT license/copyright text. The unmodified SPDX MIT text is a normative reference; its <year> and <copyright holders> markers are not package-specific attribution. Historical upstream attribution is retained separately. This material does not establish a completed licensing review.",
+      "complete_licensing_review": false
+    },
+    {
+      "repo": "madsmtm/objc2",
+      "ref": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "path": "LICENSE.md",
+      "packages": [
+        "objc2-app-kit@0.3.2",
+        "objc2-core-foundation@0.3.2",
+        "objc2-core-graphics@0.3.2",
+        "objc2-io-surface@0.3.2",
+        "objc2-quartz-core@0.3.2",
+        "objc2-uniform-type-identifiers@0.3.2",
+        "objc2-user-notifications@0.3.2"
+      ],
+      "git_blob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+      "source": "https://github.com/madsmtm/objc2/blob/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+      "file": "madsmtm-objc2-LICENSE-540ae4c81adb.md",
+      "notice_kind": "license-declaration",
+      "license_choice": "Apache-2.0",
+      "notice_limitation": "The upstream declaration includes its own Apple SDK derived-work licensing discussion; it is preserved in full. This material does not establish a completed licensing review.",
+      "complete_licensing_review": false
+    },
+    {
+      "repo": "apache/www-site",
+      "ref": "01b1be9fbc5cd93b6794f5653a58b9b863807f84",
+      "path": "content/licenses/LICENSE-2.0.txt",
+      "packages": [
+        "objc2-app-kit@0.3.2",
+        "objc2-core-foundation@0.3.2",
+        "objc2-core-graphics@0.3.2",
+        "objc2-io-surface@0.3.2",
+        "objc2-quartz-core@0.3.2",
+        "objc2-uniform-type-identifiers@0.3.2",
+        "objc2-user-notifications@0.3.2"
+      ],
+      "git_blob": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "source": "https://github.com/apache/www-site/blob/01b1be9fbc5cd93b6794f5653a58b9b863807f84/content/licenses/LICENSE-2.0.txt",
+      "file": "apache-www-site-01b1be9fbc5c-LICENSE-2.0.txt",
+      "notice_kind": "normative-license-text",
+      "license_choice": "Apache-2.0",
+      "license_reference": true,
+      "declaration_source": "https://github.com/madsmtm/objc2/blob/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+      "notice_limitation": "The upstream declaration includes its own Apple SDK derived-work licensing discussion; it is preserved in full. This material does not establish a completed licensing review.",
+      "complete_licensing_review": false
+    },
+    {
+      "repo": "madsmtm/objc2",
+      "ref": "757cd841d0293341dbefd9b99d7548dec244ffde",
+      "path": "LICENSE.txt",
+      "packages": [
+        "block2@0.6.2",
+        "objc2@0.6.5",
+        "objc2-encode@4.1.0",
+        "objc2-foundation@0.3.2"
+      ],
+      "git_blob": "e9ab3babc0d8602b83dccde8a462f8f3dc1e52ad",
+      "source": "https://github.com/madsmtm/objc2/blob/757cd841d0293341dbefd9b99d7548dec244ffde/LICENSE.txt",
+      "file": "madsmtm-objc2-MIT-e9ab3babc0d8.txt",
+      "notice_kind": "historical-copyright-notice",
+      "license_choice": "MIT",
+      "notice_limitation": "Upstream removed this MIT notice in commit cfb199226661ec6e4939fcd7cd7531b3c5453076 before the listed versions. It is retained as historical attribution, not represented as a standalone license file shipped with these versions. Their exact declarations and normative MIT text are included separately.",
+      "attribution_history_source": "https://github.com/madsmtm/objc2/commit/cfb199226661ec6e4939fcd7cd7531b3c5453076",
+      "complete_licensing_review": false
+    },
+    {
+      "repo": "SSheldon/rust-block",
+      "ref": "47178790cfc9d4a8b092051d8b413b78bd31254a",
+      "path": "Cargo.toml",
+      "packages": [
+        "block@0.1.6"
+      ],
+      "git_blob": "f414e7ef2458b35fd72cebc3014ab4a977808aa3",
+      "source": "https://github.com/SSheldon/rust-block/blob/47178790cfc9d4a8b092051d8b413b78bd31254a/Cargo.toml",
+      "file": "SSheldon-rust-block-47178790cfc9-Cargo.toml.txt",
+      "notice_kind": "license-declaration",
+      "license_choice": "MIT",
+      "package_identity": {
+        "tag": "0.1.6",
+        "tag_commit": "47178790cfc9d4a8b092051d8b413b78bd31254a",
+        "method": "Published Cargo.toml and every shipped src/*.rs file match the Git blobs at the release tag.",
+        "source_files": [
+          {
+            "path": "Cargo.toml",
+            "git_blob": "f414e7ef2458b35fd72cebc3014ab4a977808aa3"
+          },
+          {
+            "path": "src/lib.rs",
+            "git_blob": "b9c5d1d77479727e0c5fa3ddbe018e060684f8f9"
+          },
+          {
+            "path": "src/test_utils.rs",
+            "git_blob": "940a3d22720618ca42752f890a00fd2b9ce8d2ee"
+          }
+        ]
+      },
+      "notice_limitation": "The published package and matched upstream source commit declare MIT in Cargo.toml but contain no standalone license/copyright notice. Package authors are preserved verbatim in that declaration. The unmodified SPDX MIT text is a normative reference, not a fabricated copyright notice. This material does not establish a completed licensing review.",
+      "complete_licensing_review": false
+    },
+    {
+      "repo": "spdx/license-list-data",
+      "ref": "279b7e997a87c09be00dd6bdda189519ade502cf",
+      "path": "text/MIT.txt",
+      "packages": [
+        "block@0.1.6"
+      ],
+      "git_blob": "d817195dad53ec992418c28ffca5fbd1cd86502a",
+      "source": "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/MIT.txt",
+      "file": "spdx-license-list-data-279b7e997a87-MIT.txt",
+      "notice_kind": "normative-license-text",
+      "license_choice": "MIT",
+      "license_reference": true,
+      "declaration_source": "https://github.com/SSheldon/rust-block/blob/47178790cfc9d4a8b092051d8b413b78bd31254a/Cargo.toml",
+      "notice_limitation": "The published package and matched upstream source commit declare MIT in Cargo.toml but contain no standalone license/copyright notice. Package authors are preserved verbatim in that declaration. The unmodified SPDX MIT text is a normative reference, not a fabricated copyright notice. This material does not establish a completed licensing review.",
+      "complete_licensing_review": false
+    },
+    {
+      "repo": "SSheldon/rust-dispatch",
+      "ref": "82d6c7a5b75dc0c71c3f46f87bb6c16a476f7748",
+      "path": "Cargo.toml",
+      "packages": [
+        "dispatch@0.2.0"
+      ],
+      "git_blob": "8cc82a81526484217820b15c59af4bae8fb924fd",
+      "source": "https://github.com/SSheldon/rust-dispatch/blob/82d6c7a5b75dc0c71c3f46f87bb6c16a476f7748/Cargo.toml",
+      "file": "SSheldon-rust-dispatch-82d6c7a5b75d-Cargo.toml.txt",
+      "notice_kind": "license-declaration",
+      "license_choice": "MIT",
+      "package_identity": {
+        "method": "Published .cargo_vcs_info.json points to this commit. Cargo.toml.orig and every shipped src/*.rs file match its Git blobs.",
+        "source_files": [
+          {
+            "path": "Cargo.toml",
+            "git_blob": "8cc82a81526484217820b15c59af4bae8fb924fd"
+          },
+          {
+            "path": "src/ffi.rs",
+            "git_blob": "91dad6f6b02197103c30271540091ea01310f63f"
+          },
+          {
+            "path": "src/group.rs",
+            "git_blob": "6ba6c5be4a6cb138d37395056d3aa500f869bf22"
+          },
+          {
+            "path": "src/lib.rs",
+            "git_blob": "c5cd981fa25dba443e6a661475709da7d2d9a0b5"
+          },
+          {
+            "path": "src/once.rs",
+            "git_blob": "c1dbfa8718a5f26af6a7af2726e0b7ef8c4b211e"
+          },
+          {
+            "path": "src/queue.rs",
+            "git_blob": "46ed9cd552c1a90b0ecbb6c126d0456a4546531b"
+          },
+          {
+            "path": "src/sem.rs",
+            "git_blob": "b6faa242d9a81fb0f9cd7bf004c1127f686e34bd"
+          }
+        ]
+      },
+      "notice_limitation": "The published package and matched upstream source commit declare MIT in Cargo.toml but contain no standalone license/copyright notice. Package authors are preserved verbatim in that declaration. The unmodified SPDX MIT text is a normative reference, not a fabricated copyright notice. This material does not establish a completed licensing review.",
+      "complete_licensing_review": false
+    },
+    {
+      "repo": "spdx/license-list-data",
+      "ref": "279b7e997a87c09be00dd6bdda189519ade502cf",
+      "path": "text/MIT.txt",
+      "packages": [
+        "dispatch@0.2.0"
+      ],
+      "git_blob": "d817195dad53ec992418c28ffca5fbd1cd86502a",
+      "source": "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/MIT.txt",
+      "file": "spdx-license-list-data-279b7e997a87-MIT.txt",
+      "notice_kind": "normative-license-text",
+      "license_choice": "MIT",
+      "license_reference": true,
+      "declaration_source": "https://github.com/SSheldon/rust-dispatch/blob/82d6c7a5b75dc0c71c3f46f87bb6c16a476f7748/Cargo.toml",
+      "notice_limitation": "The published package and matched upstream source commit declare MIT in Cargo.toml but contain no standalone license/copyright notice. Package authors are preserved verbatim in that declaration. The unmodified SPDX MIT text is a normative reference, not a fabricated copyright notice. This material does not establish a completed licensing review.",
+      "complete_licensing_review": false
+    },
+    {
+      "repo": "SSheldon/malloc_buf",
+      "ref": "230861bf873ec72a644ae5a1b39fdf0b3a1ce654",
+      "path": "Cargo.toml",
+      "packages": [
+        "malloc_buf@0.0.6"
+      ],
+      "git_blob": "cfb0c082d87488dc110624a324636deeac8e2677",
+      "source": "https://github.com/SSheldon/malloc_buf/blob/230861bf873ec72a644ae5a1b39fdf0b3a1ce654/Cargo.toml",
+      "file": "SSheldon-malloc_buf-230861bf873e-Cargo.toml.txt",
+      "notice_kind": "license-declaration",
+      "license_choice": "MIT",
+      "package_identity": {
+        "tag": "0.0.6",
+        "tag_commit": "a7811e5f4c6f9685dd57ad9bfe34e9bf6b0ba4f9",
+        "method": "The release tag matches src/lib.rs but predates the Cargo.toml exclude entry. Published Cargo.toml and every shipped src/*.rs file instead match this subsequent source commit, whose package version remains 0.0.6.",
+        "source_files": [
+          {
+            "path": "Cargo.toml",
+            "git_blob": "cfb0c082d87488dc110624a324636deeac8e2677"
+          },
+          {
+            "path": "src/lib.rs",
+            "git_blob": "24066b69d418d50a507fb91c0db3d4f607590680"
+          }
+        ]
+      },
+      "notice_limitation": "The published package and matched upstream source commit declare MIT in Cargo.toml but contain no standalone license/copyright notice. Package authors are preserved verbatim in that declaration. The unmodified SPDX MIT text is a normative reference, not a fabricated copyright notice. This material does not establish a completed licensing review.",
+      "complete_licensing_review": false
+    },
+    {
+      "repo": "spdx/license-list-data",
+      "ref": "279b7e997a87c09be00dd6bdda189519ade502cf",
+      "path": "text/MIT.txt",
+      "packages": [
+        "malloc_buf@0.0.6"
+      ],
+      "git_blob": "d817195dad53ec992418c28ffca5fbd1cd86502a",
+      "source": "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/MIT.txt",
+      "file": "spdx-license-list-data-279b7e997a87-MIT.txt",
+      "notice_kind": "normative-license-text",
+      "license_choice": "MIT",
+      "license_reference": true,
+      "declaration_source": "https://github.com/SSheldon/malloc_buf/blob/230861bf873ec72a644ae5a1b39fdf0b3a1ce654/Cargo.toml",
+      "notice_limitation": "The published package and matched upstream source commit declare MIT in Cargo.toml but contain no standalone license/copyright notice. Package authors are preserved verbatim in that declaration. The unmodified SPDX MIT text is a normative reference, not a fabricated copyright notice. This material does not establish a completed licensing review.",
+      "complete_licensing_review": false
+    },
+    {
+      "repo": "SSheldon/malloc_buf",
+      "ref": "d9a3e539642bd90e07df458d226b19cdfa606863",
+      "path": "LICENSE",
+      "packages": [
+        "malloc_buf@0.0.6"
+      ],
+      "git_blob": "c852b1d181129b0ea5ca454ce3c370cbe8586692",
+      "source": "https://github.com/SSheldon/malloc_buf/blob/d9a3e539642bd90e07df458d226b19cdfa606863/LICENSE",
+      "file": "SSheldon-malloc_buf-d9a3e539642b-LICENSE.txt",
+      "notice_kind": "later-upstream-copyright-notice",
+      "license_choice": "MIT",
+      "notice_limitation": "This file was absent from the source commit matched to malloc_buf@0.0.6 and was added by upstream at the referenced later commit. It is included verbatim as later upstream attribution; it is not represented as a license file shipped in 0.0.6.",
+      "attribution_history_source": "https://github.com/SSheldon/malloc_buf/commit/d9a3e539642bd90e07df458d226b19cdfa606863",
+      "complete_licensing_review": false
+    }
+  ]
+}

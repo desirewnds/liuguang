@@ -1,0 +1,9 @@
+{
+  "engine_version": "2026.10.21",
+  "options": 323,
+  "groups": 17,
+  "managed_options": 261,
+  "tool_options": 62,
+  "catalog_integrity": "passed",
+  "behavior_validation": "See test results; catalog presence is not behavior verification."
+}
